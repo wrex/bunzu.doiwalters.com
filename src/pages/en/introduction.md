@@ -16,14 +16,17 @@ _Sentence diagrams_ display the _structure_ of sentences to language
 learners, without resorting to arcane grammatical jargon. They _visually_
 display the internal structure of a sentence, breaking them into simple pieces
 that show how a sentence _works_. They show the _core_ of the sentence, as
-well as what parts modify or further describe what other parts (they _don't_
-explain precisely what a sentence _means_ however).
+well as what parts modify or further describe other parts.
 
-_Anyone_ can view a sentence diagram and immediately understand the basic
-information presented, even if they don't know a noun from a verb.
+They _don't_ explain precisely what a sentence _means_ however (you still need
+to understand the meaning of the words that are displayed).
 
-Here's an example diagram for an English sentence (using English rules that
-won't be explained further):
+_Anyone_ with a minimal understanding of English can view an English sentence
+diagram and immediately understand the basic information presented, even if they
+don't know a noun from a verb.
+
+Here's an example diagram for an English sentence (using rules for English
+sentences that won't be explained further):
 
 ![Sample Diagram](/images/english-diagram.png)
 
@@ -34,8 +37,9 @@ The large horizontal line shows that the fundamental "core" of that sentence is
 "People eat meals".
 
 The _subject_, _verb_, and _object_ in that core sentence are indicated by the
-vertical lines that separate them, but _you don't need to know those words_ to
-understand the diagram!
+vertical lines that separate them, but _you don't need to understand those words_ to
+understand the diagram! You only need to understand the few simple words present
+on that line in the diagram.
 
 The diagram clearly shows that the "action" part of the sentence ("eat") is
 modified by a bunch of other words. They eat "at home" and "with sticks". The
