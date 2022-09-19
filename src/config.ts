@@ -56,7 +56,7 @@ export const SIDEBAR: Sidebar = {
       { text: "Feedback", link: "en/feedback" },
     ],
     Diagramming: [
-      { text: "Rules", link: "en/rules" },
+      { text: "How to", link: "en/howto" },
       { text: "Examples", link: "en/examples" },
     ],
   },
