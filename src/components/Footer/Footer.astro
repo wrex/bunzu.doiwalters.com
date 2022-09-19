@@ -1,0 +1,21 @@
+---
+import AvatarList from "./AvatarList.astro";
+type Props = {
+  path: string;
+};
+const { path } = Astro.props as Props;
+const thisYear = new Date().getFullYear();
+---
+
+<footer>
+  <!-- <AvatarList path={path} /> -->
+  <small>Copyright &copy; {thisYear} Rex Robert Walters</small>
+</footer>
+
+<style>
+  footer {
+    margin: auto;
+    padding: 2rem;
+    border-top: 3px solid var(--theme-divider);
+  }
+</style>
