@@ -52,12 +52,15 @@ export const SIDEBAR: Sidebar = {
     Basics: [
       { text: "Introduction", link: "en/introduction" },
       { text: "Japanese grammar", link: "en/j-grammar" },
-      { text: "About", link: "en/about" },
-      { text: "Feedback", link: "en/feedback" },
     ],
     Diagramming: [
       { text: "How to", link: "en/howto" },
       { text: "Examples", link: "en/examples" },
+    ],
+    Afterword: [
+      { text: "Recommended tools", link: "en/tools" },
+      { text: "About", link: "en/about" },
+      { text: "Feedback", link: "en/feedback" },
     ],
   },
 };
