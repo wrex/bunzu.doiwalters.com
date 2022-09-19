@@ -127,10 +127,15 @@ whole 'nother ball of wax.
 
 ## Some Japanese required
 
-This site is aimed at Japanese learners.
+This site is aimed at "intermediate" Japanese learners (whatever "intermediate"
+means).
 
-While it's for beginners, it does assume some basic knowledge about the
-language.
+While it hopes to prove useful even for beginners, it does assume some basic knowledge about
+the language.
+
+Just as an 11-year-old studying grammar for the first time _already speaks their
+native language to some degree_, these diagrams also presume a minimal familiarity
+with Japanese (though less than an 11-year-old Japanese native might possess!).
 
 In particular, some familiarity with the writing systems is mandatory. You
 should be able to [read
@@ -144,21 +149,21 @@ It's _hard_ to make sense of Japanese sentences using hiragana and katakana
 alone, however (not to mention space-consuming). So most of the example
 sentences use at least some kanji (Chinese pictographic characters).
 
-Whenever possible, the site uses simple kanji with English translations as
-well.
+Whenever possible, this site uses common words and simple sentences, but readers
+must at least know a few hundred common words and be able to construct very
+basic sentences in Japanese.
 
-Nevertheless, you must have at least a basic familiarity with kanji. The author
-recommends getting through at least the first three (free!) levels on
+The author recommends getting through at least the first three (free!) levels on
 [https://wanikani.com](Wanikani) (or something equivalent) before attempting to
 use this site.
 
 Note that the diagrams themselves don't use furigana (small hiragana/katakana
-characters above the kanji). Unfortunately, it's painful to create them easily
-in the [software we used to create the diagrams](https://figma.com).
+characters above the kanji). Unfortunately, it's painful to create furigana
+with the [diagramming software used](https://figma.com).
 
-It _is_ relatively straightforward to create furigana in `HTML` pages, however, so
-these web pages use furigana everywhere _except_ in the diagrams themselves (as
-well as providing English translations as much as possible).
+It _is_ relatively straightforward to create furigana in `HTML` pages, however,
+so these web pages use furigana everywhere _except_ in the diagrams themselves
+(as well as providing English translations as much as possible).
 
-Romaji (phonetic roman characters for Japanese words) will _not_ be used on the
-remainder of this site.
+Romaji (phonetic roman characters for Japanese words like "bunshou" and
+"zushiki" above) will _not_ be used on the remainder of this site.
