@@ -4,6 +4,11 @@ description: Docs intro
 layout: ../../layouts/MainLayout.astro
 ---
 
+> **WARNING**
+>
+> This site is still a work in progress — a very early stage of progress.
+> Proceed with caution!
+
 ## What's a Sentence Diagram?
 
 Americans of a certain age might remember diagramming sentences while learning
