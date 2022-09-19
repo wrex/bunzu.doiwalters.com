@@ -43,7 +43,8 @@ on that line in the diagram.
 
 The diagram clearly shows that the "action" part of the sentence ("eat") is
 modified by a bunch of other words. They eat "at home" and "with sticks". The
-word "pointy" modifies or further describes the word "sticks".
+word "pointy" modifies or further describes the word "sticks". Similarly, the
+word "Japanese" modifies "people".
 
 ## Syntax, not semantics
 
