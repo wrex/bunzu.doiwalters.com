@@ -51,7 +51,8 @@ export const SIDEBAR: Sidebar = {
   en: {
     Basics: [
       { text: "Introduction", link: "en/introduction" },
-      { text: "Japanese grammar", link: "en/j-grammar" },
+      { text: "文法 (grammar)", link: "en/j-grammar" },
+      { text: "文節 (clauses)", link: "en/bunsetsu" },
     ],
     Diagramming: [
       { text: "How to", link: "en/howto" },
