@@ -6,16 +6,18 @@ layout: ../../layouts/MainLayout.astro
 
 Everything below is the _author's_ understanding of how Japanese grammar works.
 Ultimately, this site presents an _opinion_. As the old joke goes: if you don't like
-that opinion, he has others!
+this opinion, he has others!
 
-More seriously, mistakes are possible (likely, even). If you do disagree with
-anything here, please let the author know. But please use evidence-based
-reasoning rather than merely complaining with statements like "That's wrong!" or
-"That's a confusing way to think about it".
+More seriously, the author is **not** a linguist! Mistakes are possible (likely,
+even). If you do disagree with anything here, please let the author know. But
+please provide examples and use evidence-based reasoning rather than merely
+complaining with statements like "That's wrong!" or "That's a confusing way to
+think about it".
 
-Arguments are unlikely to sway the author's opinion unless the provide concrete examples
+Arguments are unlikely to sway the author's opinion unless they provide concrete examples
 demonstrating errors or inconsistencies. Appeals to authority ("so-and-so says
-_this_") are also less persuasive than evidence based reasoning.
+_this_") and technical jargon ("declinations with the subjunctive mood ...") are
+also less than persuasive. Examples, please.
 
 ---
 
@@ -77,6 +79,8 @@ also provide English equivalents or translations, but when the meanings differ,
 no matter how subtly, we **always** intend the Japanese word and the Japanese
 meaning.
 
+#### Case in point
+
 The English word "noun" and the Japanese word <ruby>名詞<rp>(</rp><rt>めいし
 </rt><rp>)</rp></ruby> have pretty much identical meanings: "named things".
 
@@ -89,14 +93,9 @@ _two_ types of "adjectives": <ruby>形容詞<rp>(</rp><rt>けいようし
 </rt><rp>)</rp></ruby> and <ruby>形容動詞<rp>(</rp><rt>けいようどうし
 </rt><rp>)</rp></ruby>.
 
-Westerners typically call <ruby>動詞<rp>(</rp><rt>どうし</rt><rp>)</rp></ruby>,
-<ruby>形容詞<rp>(</rp><rt>けいようし</rt><rp>)</rp></ruby>, and
-<ruby>形容動詞<rp>(</rp><rt>けいようどうし</rt><rp>)</rp></ruby>
-
-- "verbs",
-- "い-adjectives",
-- and ”な -adjectives"
-
+Westerners typically call 「<ruby>動詞<rp>(</rp><rt>どうし</rt><rp>)</rp></ruby>」
+"verbs",　「<ruby>形容詞<rp>(</rp><rt>けいようし</rt><rp>)</rp></ruby>」 "い-adjectives", and
+「<ruby>形容動詞<rp>(</rp><rt>けいようどうし</rt><rp>)</rp></ruby>」 ”な -adjectives",
 respectively.
 
 Japanese middle schools teach that:
@@ -111,21 +110,20 @@ Japanese middle schools teach that:
 
 To a Japanese native, these words' ability to modify a noun is a
 _secondary_ usage. Their primary use is to indicate action/state/utilization, as
-opposed to things that _don't_ (like nouns, conjunctions, and interjections)
+opposed to things that _don't_ (<ruby>体言<rp>(</rp><rt>たいげん
+</rt><rp>)</rp></ruby>, things like nouns, adverbs, conjunctions, and
+interjections).
 
 Don't believe it? Consider the following:
 
-Japanese dictionaries call 形容動詞 **だ**-words, but we consider them to be
-な-words! They think of them _first_ as verb-like (e.g. 「静かだ」&mdash; "it's
-quiet"). We think of them as primarily adjective-like (e.g. 「静かな犬」&mdash; "[a]
-quiet dog").
+Japanese dictionaries often identify 形容動詞 as **だ**-words, but we consider them
+to be な-words! They think of them _first_ as
+<ruby>用言<rp>(</rp><rt>ようげん</rt><rp>)</rp></ruby> or verb-like (e.g. 「静かだ」&mdash;
+"it's quiet"). We think of them first as adjective-like (e.g. 「静かな犬」&mdash;
+"[a] quiet dog").
 
-Most of us wouldn't think of verbs and adjectives as similar or
-even related. In English grammar, "adjectives" modify nouns, and have almost
-nothing to do with verbs! But _Japanese grammar doesn't behave like English._
-
-That's why this site uses the Japanese terms whenever possible. The goal is to
-_think about Japanese sentences like a Japanese native_ as much as possible.
+That's why this site uses the Japanese terms whenever possible. The goal, as
+much as possible, is to _think about Japanese sentences like a Japanese native_.
 
 ### Why study grammar/syntax?
 
@@ -154,8 +152,8 @@ feels that "ungrammared" is almost as much an impediment to communication as
 "illiterate".
 
 While "he done it" would likely be understood, it sounds unrefined. In the
-same way, 「その花がきれい！」 (without だ at the end) communicates an idea
-effectively enough, but sounds jarring.
+same way, 「その花がきれい！」 (without だ at the end) communicates the idea
+effectively enough, but sounds unfinished and unrefined.
 
 These diagrams provide a visual aid for reasoning about and composing with
 grammatical syntax and structure. If you don't value grammar, then you
@@ -174,12 +172,12 @@ wonderful site about Japanese grammar](https://www.kokugobunpou.com/).)
 Because this is a site for _foreign_ learners of Japanese, however, some
 concessions and alterations will occasionally arise.
 
-Whenever possible concepts are introduced in the same order as a _Japanese_
+Whenever possible, concepts are introduced in the same order as a _Japanese_
 middle-school curriculum. The information is hierarchically organized using
 _Japanese_ taxonomies. Concepts are described with as _Japanese_ a mindset as
 the Author's English-native brain can provide.
 
-### Only basics
+### Diagrams only
 
 This site only tries to explain how to diagram Japanese sentences.
 
@@ -190,13 +188,13 @@ diagramming.
 "Japanese grammar" is an extremely deep (and somewhat opinionated) subject!
 Hopefully, these diagrams help people to reason about deeper topics not covered here.
 
-## Units of Japanese writing
+## Units of composition
 
 Japanese schoolteachers would teach these basic units or divisions of Japanese
 writing, from largest to smallest:
 
-- <ruby>文章<rp>(</rp><rt>ぶんしょう</rt><rp>)</rp></ruby> Used here to mean writing in
-  general (a composition, essay, or, confusingly, mean an individual _sentence_.)
+- <ruby>文章<rp>(</rp><rt>ぶんしょう</rt><rp>)</rp></ruby> Means writing in
+  general (an article, composition, essay, or, an individual _sentence_.)
 
 - <ruby>段落<rp>(</rp><rt>だんらく</rt><rp>)</rp></ruby> A paragraph. Literally, "falling
   rows" of text.
@@ -214,29 +212,44 @@ words). In particular, identifying 文節 is the most critical part of diagrammi
 
 ## Parts of speech
 
-If 文 are the "molecules" of Japanese, then 品詞 (parts of speech) are the atoms.
+If 文 are the "molecules" of Japanese, then
+<ruby>品詞<rp>(</rp><rt>ひんし</rt><rp>)</rp></ruby> (parts of speech) are the atoms.
 
-The character 詞, by the way, means a part of speech. They indicate that the
+The character 詞, by the way, means "a part of speech." It usually indicates that the
 preceding word is a _grammatical type._
 
 ![Parts of speech diagram](/images/parts-of-speech-translated.png)
+
+### The main categories
 
 Most Japanese grammar resources refer to 八品詞, the "_eight_ parts of speech".
 
 While there are only eight primary, or "freestanding" parts of speech, the
 diagram above also includes two additional auxiliary or attached types
-(interjections and particles).
+(aux-verbs and particles).
 
-### The ten types
+The first eight are divided into two main categories:
 
-#### 用言 declinable words
+- <ruby>用言<rp>(</rp><rt>ようげん</rt><rp>)</rp></ruby> or "declinable" words.
 
-Technically, 用言 are "declinable" words. That's enough linguistic-grammarian.
-These words _function_ as "utilization" words: they are the part of a predicate
-that explains _what's happening_. English tends to focus on the _who_ and _what_
-within a sentence, Japanese tends to focus on the _action_ or _state._
+  That's enough linguistic-grammarian. These words _function_ as verb-like
+  "utilization" words: they are the part of a predicate that explains _what's
+  happening_. English tends to focus on the _who_ and _what_ within a sentence,
+  Japanese tends to focus on the _action_ or _state._
 
-These words provide the latter.
+  There are three types of 用言.
+
+- <ruby>体言<rp>(</rp><rt>たいげん</rt><rp>)</rp></ruby> or "non-declinable" or
+  "substantive" words. This is everything else, primarily 名詞 (nouns), and 副詞
+  (adverbs).
+
+  There are five types of 体言.
+
+There is also one more category containing auxiliary or attached "words" (in
+quotes because they aren't words on their own, they attach as suffixes to real
+words).
+
+### <ruby>用言<rp>(</rp><rt>ようげん</rt><rp>)</rp></ruby> declinable words
 
 Japanese is a predicate-centric language. The words at the end of a clause
 (the predicate) tend to be the most important.
@@ -247,37 +260,58 @@ that can become predicates all on their own (単独で述語となるもの).
 > **Individual 用言 can become a predicate all on their own, without any other words or modifiers.**
 
 Because Japanese grammar considers an explicit subject optional, 行く, 寒い, and 静かだ
-are _all complete sentences._
+(a 動詞, 形容詞, and 形容動詞 respectively) are _all complete sentences._
 
 These are the three types of 用言:
 
 1. 動詞 (verbs) indicate _action_ or _existence._ The plain form of these verbs
-   always end in う (more properly, something from the う column like く, す, ぬ,
-   る, _etc._).
+   always end with the う sound (anything from the う column like 〜う, 〜く, 〜す, 〜ぬ,
+   〜る, _etc._).
 
-2. 形容詞 (so-called "い-adjectives") indicate nature or _state_ and end in い.
+   Examples: 笑う、動く
 
-3. 形容動詞 (so-called "な-adjectives") indicate nature or state and end in だ.
+2. 形容詞 (so-called "い-adjectives") indicate nature or _state_ and end with
+   the literal kana character い.
 
-#### 体言 indeclinable words
+   Examples: 白い、近い
+
+3. 形容動詞 (so-called "な-adjectives") indicate nature or state and end with
+   the literal kana character だ.
+
+   Examples: 静かだ、大変だ
+
+### <ruby>体言<rp>(</rp><rt>たいげん</rt><rp>)</rp></ruby> indeclinable words
 
 There are five types of "indeclinable words" (words that aren't primarily action
 or state). Also known as "substantives".
 
 4. 名詞 (nouns) Sub-types include pronouns, numbers, and counters.
 
+   Examples: 新湯、森林
+
 5. 副詞 (adverbs) modifiers for the three declinable types.
 
-6. 連体詞 (definite article) modifiers for the five indeclinable types.
-   These specify a specific person or thing the audience already
-   knows. Examples: これ、それ、あやずる (this, that, all)
+   Examples: 再び、とても
+
+6. 連体詞 (definite article) These specify a specific person or thing the audience already
+   knows, and modify the five indeclinable types.
+
+   Examples: この、あやずる (this one, all of these)
 
 7. 接続詞 (conjunctive, connective)
 
+   Examples: また、しかし
+
 8. 感動詞 (interjection)
 
-#### Auxiliary/attached words
+   Examples: さあ、はい
+
+### Auxiliary "words"
 
 9. 助動詞 (auxiliary verb)
 
+   Examples: 〜られる、〜ない
+
 10. 助詞 (particle)
+
+    Examples: 〜は、〜へ
