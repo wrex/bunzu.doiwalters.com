@@ -4,6 +4,21 @@ description: How this site explains Japanese grammar
 layout: ../../layouts/MainLayout.astro
 ---
 
+Everything below is the _author's_ understanding of how Japanese grammar works.
+Ultimately, this site presents an _opinion_. As the old joke goes: if you don't like
+that opinion, he has others!
+
+More seriously, mistakes are possible (likely, even). If you do disagree with
+anything here, please let the author know. But please use evidence-based
+reasoning rather than merely complaining with statements like "That's wrong!" or
+"That's a confusing way to think about it".
+
+Arguments are unlikely to sway the author's opinion unless the provide concrete examples
+demonstrating errors or inconsistencies. Appeals to authority ("so-and-so says
+_this_") are also less persuasive than evidence based reasoning.
+
+---
+
 Academic linguists study every language spoken on earth (and then some). They've
 had to develop a sort of "meta-language" to describe the differences and
 similarities across countless languages. (The author calls this meta-language
@@ -12,7 +27,7 @@ meanings and can be used to describe _any_ language.
 
 Learning this meta-language is an incredibly difficult undertaking!
 
-### For layman not linguists
+### For laymen not linguists
 
 As a layman, trying to follow and understand two linguists describing
 aspects of an unfamiliar language can be an exercise in frustration. The
@@ -30,12 +45,17 @@ something like a young, native child's capability in the language (but with
 adult understanding of concepts).
 
 We're also only diagramming structure (syntax), not meaning (semantics). One
-doesn't need deep nuanced understanding of Japanese to make sense of these
-diagrams.
+doesn't need a deep, nuanced understanding of Japanese to make sense of these
+diagrams, but the words themselves should help to explain the ideas displayed by
+a diagram (how the words are used and what affects what).
 
-This _doesn't_ mean it's easy, though! Japanese grammar and syntax is quite
-complex in its own right. It often differs from English grammar in quite subtle
-ways.
+As long as you can recognize "things" vs. "actions/existence" vs. "modifiers",
+the diagrams should make some sense.
+
+This _doesn't_ mean it's easy to _create_ accurate diagrams, though!
+
+Japanese grammar and syntax is quite complex in its own right. It often differs
+from English grammar in quite subtle ways.
 
 Worse, explaining things in one language by using another can introduce all sorts of
 unintended confusion. Like it or not, the languages we speak literally train
