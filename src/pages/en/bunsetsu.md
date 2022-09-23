@@ -9,11 +9,14 @@ have one, but complex sentences might have many.
 
 **Every** clause comprises exactly two parts:
 
-> **Important Rule #1:**
->
-> _Every_ clause **always** has a logical <ruby>主語<rp>(</rp><rt>しゅご</rt><rp>)</rp></ruby>
-> (subject) and <ruby>述語<rp>(</rp><rt>じゅつご</rt><rp>)</rp></ruby>
-> (predicate)!
+<section class="admonition">
+  <header class="title">Important rule #1</header>
+  <p class="content">
+    <em>Every</em> clause <strong>always</strong> has a logical
+    <ruby>主語<rp>(</rp><rt>しゅご</rt><rp>)</rp></ruby> (subject) and
+    <ruby>述語<rp>(</rp><rt>じゅつご</rt><rp>)</rp></ruby> (predicate)!  
+  </p>
+</section>
 
 These two parts form the framework of every clause.
 
@@ -33,9 +36,9 @@ something outside of the sentence itself.
 
 For example, imagine if someone pointed at a flower and uttered the single word sentence:
 
-> <ruby>咲 <rp>(</rp><rt>さ</rt><rp>)</rp></ruby>いている。("blooming")
+> <ruby>咲 <rp>(</rp><rt>さ</rt><rp>)</rp></ruby>いている
 
-In Japanese, that is a complete, grammatical, single-clause sentence.
+That is a complete, grammatical, single-clause Japanese sentence that means "blooming".
 
 The intended subject of that sentence is obviously _flower_. They are pointing out that _the
 flower_ is blooming.
@@ -44,10 +47,13 @@ But that's the _semantic_ (logical) 主語 &mdash; there _is no_ syntactical
 (literal) 主語 anywhere in the sentence. But it's a complete Japanese sentence
 nonetheless!
 
-> **Important rule #2:**
->
-> 主語 are often omitted in writing or speech, but _something_ **always** _acts_
-> as the "master" in **every** clause, even if isn't explicitly mentioned.
+<section class="admonition">
+  <header class="title">Important rule #2</header>
+  <p class="content">
+    主語 are often omitted in writing or speech, but <em>something</em> <strong>always</strong> acts
+    as the "master" in <strong>every</strong> clause, even if isn't explicitly mentioned.
+  </p>
+</section>
 
 Since sentence diagrams are all about _syntax,_ this last rule presents a bit of quandary.
 

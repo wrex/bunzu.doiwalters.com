@@ -149,7 +149,12 @@ Japanese is a predicate-centric language. The words at the end of a clause
 As shown at the top of the diagram, there are three types of "inflectable,"
 standalone words that can become predicates all on their own (単独で述語となるもの).
 
-> **Individual 用言 can become a predicate all on their own, without any other words or modifiers.**
+<section class="admonition">
+  <header class="title">Note</header>
+  <p class="content">
+    Individual 用言 can become a predicate all on their own, without any other words or modifiers.
+  </p>
+</section>
 
 These are the three types of 用言:
 
