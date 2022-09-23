@@ -4,13 +4,17 @@ description: Docs intro
 layout: ../../layouts/MainLayout.astro
 ---
 
-<section class="admonition">
-  <header class="title">Warning!</header>
-  <p class="content">
-   This site is still a work in progress — a very early stage
-   of progress.  Proceed with caution!
-  </p>
-</section>
+import Admonition from "../../components/Admonition.svelte";
+
+<Admonition title="Warning!">
+This site is still a work in progress — a very early stage of progress.
+
+The author is no expert in Japanese grammar, but he did learn quite a bit while
+_creating_ this system. Errors are likely.
+
+Proceed with caution!
+
+</Admonition>
 
 This site explains how to create _sentence diagrams_ for Japanese sentences.
 
@@ -107,8 +111,7 @@ system to create _Japanese_ sentence diagrams, or 文章図式. The author hopes
 Japanese sentence diagrams will help other beginners to better understand the
 language.
 
-The Japanese word for "sentence" is <ruby>文章<rp>(</rp><rt>ぶんしょう
-</rt><rp>)</rp></ruby> (bunshou, literally "writing section"). One word for
+The Japanese word for "sentence" is <ruby>文章<rp>(</rp><rt>ぶんしょう</rt><rp>)</rp></ruby> (bunshou, literally "writing section"). One word for
 diagram is <ruby>図式 <rp>(</rp><rt>ずしき</rt><rp>)</rp></ruby> (zushiki, literally
 "diagram method"). One way to say "sentence diagram" in Japanese is thus 文章図式
 (bunshouzushiki), but that's quite a lot to type in Roman characters, so this
@@ -124,8 +127,9 @@ many points.
 Whenever possible, this site uses _Japanese_ grammatical terms (with translations)
 rather than the English terms alone. For example,
 
-> <ruby>猫<rp>(</rp><rt>ねこ</rt><rp>)</rp></ruby> (neko) is a <ruby>名詞<rp>(</rp><rt>めいし
-> </rt><rp>)</rp></ruby> (meishi or "noun" meaning "cat").
+{/* prettier-ignore */}
+> <ruby>猫<rp>(</rp><rt>ねこ</rt><rp>)</rp></ruby> (neko or "cat") is a <ruby>名詞<rp>(</rp><rt>めいし</rt><rp>)</rp></ruby>
+(meishi or "noun").
 
 The reason is that there are often subtle differences between the Japanese and
 English concepts. Ultimately the grammar terms are just names for concepts.
