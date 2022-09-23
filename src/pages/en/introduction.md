@@ -4,10 +4,21 @@ description: Docs intro
 layout: ../../layouts/MainLayout.astro
 ---
 
-> **WARNING**
->
-> This site is still a work in progress — a very early stage of progress.
-> Proceed with caution!
+<section class="admonition">
+  <header class="title">Warning!</header>
+  <p class="content">
+   This site is still a work in progress — a very early stage
+   of progress.  Proceed with caution!
+  </p>
+</section>
+
+This site explains how to create _sentence diagrams_ for Japanese sentences.
+
+It's targeted at _intermediate_ Japanese learners who wish to better understand
+the grammatical structure of Japanese sentences.
+
+This site does _not_ attempt to teach the Japanese language or grammar, it only
+introduces a tool to aid further study.
 
 ## What's a Sentence Diagram?
 

@@ -1,5 +1,5 @@
 ---
-title: 日本語の文法 (grammar)
+title: Overview and terminology
 description: How this site explains Japanese grammar
 layout: ../../layouts/MainLayout.astro
 ---
@@ -28,9 +28,9 @@ For a more thorough introduction to Japanese grammar, the author highly recommen
 
 - Jay Rubin's book _Making sense of Japanese_ is an outstanding resource. It
   does exactly what it promises, and many of the ideas underly both the Cure
-  Dolly videos and this site. It's not structured as a textbook, but rather a
-  prose introduction to some of the most important aspects of the language that
-  English-speakers tend to misunderstand.
+  Dolly videos and this site. It's not structured as a textbook, but rather as
+  more conversational prose. It introduces some of the most important aspects
+  of the language (things that English-speakers tend to misunderstand).
 
 ## Units of composition
 
@@ -153,9 +153,10 @@ standalone words that can become predicates all on their own (単独で述語と
 
 These are the three types of 用言:
 
-1. <ruby>動詞<rp>(</rp><rt>どうし</rt><rp>)</rp></ruby> (verbs) indicate _action_ or _existence._ The plain form of these verbs
-   always end with the う sound (anything from the う column like 〜う, 〜く, 〜す, 〜ぬ,
-   〜る, _etc._).
+1. <ruby>動詞<rp>(</rp><rt>どうし</rt><rp>)</rp></ruby> (verbs) indicate
+   _action_ or _existence._
+
+   The plain form of these verbs always end with the う sound (〜う, 〜く, 〜す, 〜る, _etc._).
 
    Examples: <ruby>笑<rp>(</rp><rt>わら</rt><rp>)</rp></ruby>う (to laugh),
    <ruby>動<rp>(</rp><rt>うご</rt><rp>)</rp></ruby>く (to move).
@@ -190,17 +191,23 @@ These are the three types of 用言:
    grammatically wrong and _exactly_ equivalent to saying "Tokyo **is** is
    near" (with an extra "is").
 
-   Thinking of 形容詞 words as meaning "is-◯" helps English speakers to internalize that
+   [Confusingly, appending です instead of だ, _is_ grammatical, but this really is
+   a special case. Adding です after 形容詞 makes it a bit more polite, but
+   is never required. Foreigners will be forgiven if they ignore this special case.]
+
+   Thinking of 形容詞 words as meaning "is-◯" helps English speakers remember that
    they are verb-like words that can stand on their own in a predicate _as well as_
    describe nouns.
 
    **IMPORTANT NOTE 2:**
 
    The final い is _part of the word_, not an "い particle"! There is no such
-   thing as an い助詞. You aren't turning a word into a 形容詞 by adding い, the
-   形容詞 already has い as part of the word.
+   thing as an い particle. You aren't turning a word into a 形容詞 by adding い, the
+   形容詞 _already has い as part of the word_.
 
-   The word <ruby>白<rp>(</rp><rt>しろ</rt><rp>)</rp></ruby> (white) is 名詞, a _noun_.
+   The word <ruby>白<rp>(</rp><rt>しろ</rt><rp>)</rp></ruby> (white) is 名詞, a
+   _noun_. You you might use it in a chess match, for example, to say things
+   like 「白が<ruby>勝<rp>(</rp><rt>か</rt><rp>)</rp></ruby>った」("white won").
 
    The word <ruby>白<rp>(</rp><rt>しろ</rt><rp>)</rp></ruby>い (is-white) is 形容詞,
    _and is an entirely different word_.
@@ -208,12 +215,34 @@ These are the three types of 用言:
    This is another reason the author believes it better to think of 白い as
    "is-white" rather than just "white". It helps to enforce the idea that it's a
    separate word on its own. Obviously they are _related_, but they are
-   different words and _not_ the same word with い appended.
+   different words with different grammatical types. They _aren't_ the same word
+   with い appended.
 
-3. 形容動詞 (so-called "な-adjectives") indicate nature or state and end with
-   the literal kana character だ.
+3. <ruby>形容動詞<rp>(</rp><rt>けいようどうし</rt><rp>)</rp></ruby> (so-called
+   "な-adjectives") indicate nature or state and end with the literal kana character
+   だ.
 
-   Examples: 静かだ、大変だ
+   Examples: <ruby>静<rp>(</rp><rt>しず</rt><rp>)</rp></ruby>かだ (is-quiet),
+   <ruby>大変<rp>(</rp><rt>たいへん</rt><rp>)</rp></ruby>だ (is-serious,
+   is-grave)
+
+   Again, think of these examples as "is-◯" rather than merely "quiet" or
+   "serious/grave". You'll thank the author eventually if you start thinking this way now.
+
+   形容動詞 function in a predicate exactly the same as 形容詞, except they end in
+   だ rather than い. _Both_ indicate nature or state (as opposed to 動詞 which
+   indicate action or existence).
+
+   One technicality: unlike 形容詞, if you look up 形容動詞 in a dictionary they
+   _won't_ usually include the だ. The dictionary will have an entry for 静か
+   but probably not for 静かだ. 形容動詞 use だ for their primary purpose: when they are
+   used as 用言 at the end of a sentence. But 形容動詞 use **な** in there
+   alternate usage to modify nouns. (Unlike 形容詞 which _always_ include い for
+   either purpose).
+
+   Despite this technicality, you should still consider だ as part of the word
+   rather than a separate "verb" like "is" (you would _never_ use the "stem" of
+   a 形容動詞 on its own without だ or な).
 
 Because Japanese grammar considers an explicit subject optional, <ruby>行<rp>(</rp><rt>い
 </rt><rp>)</rp></ruby>く, <ruby>寒<rp>(</rp><rt>さむ

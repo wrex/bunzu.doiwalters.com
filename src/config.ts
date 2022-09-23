@@ -54,7 +54,7 @@ export const SIDEBAR: Sidebar = {
       { text: "Content notes", link: "en/content" },
     ],
     Grammar: [
-      { text: "語彙 (terminology)", link: "en/j-grammar" },
+      { text: "Overview & terminology", link: "en/j-grammar" },
       { text: "文節 (clauses)", link: "en/bunsetsu" },
     ],
     Diagramming: [

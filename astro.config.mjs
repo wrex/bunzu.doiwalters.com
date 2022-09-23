@@ -1,6 +1,7 @@
 import { defineConfig } from "astro/config";
 import preact from "@astrojs/preact";
 import react from "@astrojs/react";
+// import remarkDirective from "remark-directive";
 // import netlify from "@astrojs/netlify/functions";
 
 // https://astro.build/config
@@ -13,4 +14,8 @@ export default defineConfig({
   ],
   site: `https://bunzu.doiwalters.com`,
   // adapter: netlify(),
+  markdown: {
+    // remarkPlugins: [remarkDirective],
+    // extendDefaultPlugins: true,
+  },
 });
