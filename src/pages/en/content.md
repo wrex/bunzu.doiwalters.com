@@ -1,0 +1,188 @@
+---
+title: Content notes
+description: Details about this opinionated documentation
+layout: ../../layouts/MainLayout.astro
+---
+
+Everything on this site represents the _author's_ understanding of how Japanese
+grammar works. Ultimately, this site presents an _opinion_. As the old joke
+goes: if you don't like this opinion, he has others!
+
+More seriously, the author is **not** a linguist! Mistakes are possible (likely,
+even). If you do disagree with anything here, please let the author know. But
+please provide examples and use evidence-based reasoning rather than merely
+complaining with statements like "That's wrong!" or "That's a confusing way to
+think about it". There's usually a reason things are presented as they are.
+
+Arguments are unlikely to sway the author's opinion unless they provide concrete examples
+demonstrating errors or inconsistencies. Appeals to authority ("so-and-so says
+_this_") and technical jargon ("declinations with the subjunctive mood ...") are
+unlikely to persuade. Examples, please.
+
+## Linguistics and grammar
+
+Academic linguists study every language spoken on earth (and then some). They've
+had to develop a sort of "meta-language" to describe the differences and
+similarities across countless languages. (The author calls this meta-language
+"linguistic-grammarian".) The words in this language have very specific
+meanings and can be used to describe _any_ language.
+
+Learning this meta-language is an incredibly difficult undertaking!
+
+## For laymen not linguists
+
+As a layman, trying to follow and understand two linguists describing
+aspects of an unfamiliar language can be an exercise in frustration. The
+conversations are full of arcane grammatical jargon and extremely nuanced points
+that can be quite hard to grasp. ("It's all Greek to me" doesn't
+begin to cover it!)
+
+Fortunately, our needs are at least _slightly_ more modest: we only wish to diagram
+sentences in _one_ language: Japanese.
+
+Further, we _presume_ at least a basic level of Japanese language skills.
+Specifically, readers should know at least a hundred or so simple Japanese words
+and be able to construct _basic_ Japanese sentences. Readers should possess
+something like a young, native child's capability in the language (but with
+adult understanding of concepts).
+
+We're also only diagramming structure (syntax), not meaning (semantics). One
+doesn't need a deep, nuanced understanding of Japanese to make sense of these
+diagrams, but the words themselves should help to explain the ideas displayed by
+a diagram (how the words are used and what affects what).
+
+As long as you can recognize "things" vs. "actions/existence" vs. "modifiers",
+the diagrams should make some sense.
+
+This _doesn't_ mean it's easy to _create_ accurate diagrams, though!
+
+Japanese grammar and syntax is quite complex in its own right. It often differs
+from English grammar in quite subtle ways.
+
+Worse, explaining things in one language by using another can introduce all sorts of
+unintended confusion. Like it or not, the languages we speak literally train
+the neural pathways in our brains. We tend to "think" in our own languages even
+when attempting to learn another (often causing confusion).
+
+True fluency requires "thinking" in the target languages, something we hope to
+encourage with these diagrams.
+
+## Japanese terminology
+
+While the diagrams themselves will _never_ contain any grammatical jargon in
+either language, we are forced to use grammatical terminology to explain how
+they are constructed.
+
+Because English and Japanese grammatical terms can have subtly different
+meanings, _this site always prefers the Japanese terms_! Whenever possible, we
+also provide English equivalents or translations, but when the meanings differ,
+no matter how subtly, we **always** intend the Japanese word and the Japanese
+meaning.
+
+### Case in point
+
+The English word "noun" and the Japanese word <ruby>名詞<rp>(</rp><rt>めいし
+</rt><rp>)</rp></ruby> have pretty much identical meanings: "named things".
+
+"Verb" and <ruby>動詞<rp>(</rp><rt>どうし </rt><rp>)</rp></ruby> are also almost
+identical. Both are terms for the parts of speech evoking action, state,
+occurrence or change.
+
+But the word "adjective" is a _completely_ different ballgame.
+
+For one thing, most western instructors instructors teach that Japanese has
+_two_ types of "adjectives": <ruby>形容詞<rp>(</rp><rt>けいようし </rt><rp>)</rp></ruby>
+and <ruby>形容動詞<rp>(</rp><rt>けいようどうし </rt><rp>)</rp></ruby>. Westerners typically
+call「<ruby>形容詞<rp>(</rp><rt>けいようし</rt><rp>)</rp></ruby>」 "い-adjectives", and
+「<ruby>形容動詞<rp>(</rp><rt>けいようどうし</rt><rp>)</rp></ruby>」 ”な -adjectives",
+respectively.
+
+Japanese middle schools teach that:
+
+> <ruby>動詞<rp>(</rp><rt>どうし</rt><rp>)</rp></ruby>, <ruby>形容詞<rp>(</rp><rt>けいようし
+> </rt><rp>)</rp></ruby>, and <ruby>形容動詞<rp>(</rp><rt>けいようどうし
+> </rt><rp>)</rp></ruby> are all <ruby>活用語
+> <rp>(</rp><rt>かつようご</rt><rp>)</rp></ruby> (conjugation vocabulary) and
+> <ruby>用言<rp>(</rp><rt>ようげん</rt><rp>)</rp></ruby> (inflecting words). They are
+> all single words that describe action or state in the
+> <ruby>述語<rp>(</rp><rt>じゅつご</rt><rp>)</rp></ruby> (predicate) of a sentence.
+
+To a Japanese native, all three types of words _primarily_ indicate
+action/state/utilization. They think of all three as _verb-like,_ as
+first-class words that form the predicate of a sentence.
+
+In particular, they _don't_ think of 形容詞 and 形容動詞 as second-class words that
+merely _modify_ nouns. They _don't_ think of them primarily as "adjectives" that merely
+_modify_ subjects and objects.
+
+Don't believe it? Consider the following:
+
+Japanese dictionaries often identify 形容動詞 as "**だ**-words", but we consider them
+"な-words"!
+
+They think of them _first_ as <ruby>用言<rp>(</rp><rt>ようげん</rt><rp>)</rp></ruby>
+or verb-like (e.g. 「静か**だ**」&mdash; "it's quiet"). We think of them first as
+adjective-like (e.g. 「静か**な**家」&mdash; "a quiet house").
+
+This was a bit of an epiphany for the author. It's why this site uses Japanese
+terms whenever possible.
+
+The goal, as much as possible, is to _think about Japanese sentences like a
+Japanese native_.
+
+## Why study grammar/syntax?
+
+We all learned our native languages primarily by _immersion_ (repeated exposure
+and mimicry). We didn't study grammar and "rules" until fairly late in our childhood.
+
+The human brain is _incredibly_ well adapted to pattern matching. With
+sufficient _input_ and practice, we _can_ reach even fairly advanced levels of
+proficiency _without_ studying grammar or formally studying how sentences are
+structured.
+
+_Nothing_ is more beneficial to learning a language than massive amounts of
+_input_ (listening or reading) and plenty of practice with feedback.
+
+Yet most if not all countries force their schoolchildren to learn more about
+their native languages. Students learn to think _about_ their native languages.
+Most educated people eventually study grammar, composition, and classic
+literature at some point.
+
+So why do we force our children study grammar? (The author believes it's
+beneficial and important &mdash; some might disagree!)
+
+Studying the structure of our languages allows us to communicate more
+effectively and to express more nuanced thoughts. The author feels that
+"ungrammared" is almost as much an impediment to communication as "illiterate".
+
+While "he done it" would likely be understood, it sounds unrefined.
+
+In the same way, 「その花がきれい！」 (without だ at the end) or 「あの家が白いだ」(_with_ だ at the
+end) communicates the ideas effectively enough, but they are _wrong_, they sound
+unfinished/awkward/unrefined and such mistakes in more complex sentences
+eventually create difficulties.
+
+These diagraming techniquest taught here provide a visual aid for reasoning
+about and composing Japanese sentences. They visually clarify grammatical syntax
+and structure.
+
+If you don't value grammar, then you probably won't find sentence diagrams or
+this site terribly useful. (And you'd be _wrong_. 😉)
+
+## Learn like a native
+
+This site attempts to teach Japanese grammatical syntax similar to how it would
+be taught to Japanese <ruby>中学生<rp>(</rp><rt>ちゅうがくせい</rt><rp>)</rp></ruby>
+(middle-school students). But it only attempts to explain enough basic grammar
+to diagram Japanese sentences &mdash; it's not a complete course in Japanese grammar!
+
+Much of the information presented is cribbed from [this wonderful site about
+Japanese grammar](https://www.kokugobunpou.com/).
+
+Because this is a site for _foreign_ learners of Japanese, however, some
+concessions, alterations, and omissions are inevitable.
+
+Whenever possible, concepts are introduced in the same order as a _Japanese_
+middle-school curriculum. The information is hierarchically organized using
+_Japanese_ taxonomies. Concepts are described with as _Japanese_ a mindset as
+the Author's English-native brain can provide.

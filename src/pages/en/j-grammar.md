@@ -1,192 +1,36 @@
 ---
-title: 文法 (grammar)
+title: 日本語の文法 (grammar)
 description: How this site explains Japanese grammar
 layout: ../../layouts/MainLayout.astro
 ---
 
-Everything below is the _author's_ understanding of how Japanese grammar works.
-Ultimately, this site presents an _opinion_. As the old joke goes: if you don't like
-this opinion, he has others!
+Japanese grammar is a very deep and difficult subject. What we cover here is
+only the tip of the iceberg (it's just the high-level stuff necessary to
+understand sentence diagrams).
 
-More seriously, the author is **not** a linguist! Mistakes are possible (likely,
-even). If you do disagree with anything here, please let the author know. But
-please provide examples and use evidence-based reasoning rather than merely
-complaining with statements like "That's wrong!" or "That's a confusing way to
-think about it".
+For a more thorough introduction to Japanese grammar, the author highly recommends:
 
-Arguments are unlikely to sway the author's opinion unless they provide concrete examples
-demonstrating errors or inconsistencies. Appeals to authority ("so-and-so says
-_this_") and technical jargon ("declinations with the subjunctive mood ...") are
-also less than persuasive. Examples, please.
+- The [Tofugu grammar hub](https://www.tofugu.com/japanese-grammar/)
 
----
+- [Cure Dolly's videos and
+  book](https://www.youtube.com/channel/UCkdmU8hGK4Fg3LghTVtKltQ)
 
-Academic linguists study every language spoken on earth (and then some). They've
-had to develop a sort of "meta-language" to describe the differences and
-similarities across countless languages. (The author calls this meta-language
-"linguistic-grammarian".) The words in this language have very specific
-meanings and can be used to describe _any_ language.
+  Warning: The book may be easier more comfortable for most people. The animated
+  "android" and creepy voice can be a bit hard to take at first, but the content
+  is well worth it. Much of this site reflects ideas from these videos. One
+  strong recommendation: turn on subtitles and watch at 1.25X speed (with or
+  without audio).
 
-Learning this meta-language is an incredibly difficult undertaking!
+  Sadly, the author of these wonderful videos is no longer with us. I'm unsure
+  of her background, but based on her slightly odd diction in _both_ languages, I
+  suspect she was a native Japanese speaker who moved to an English speaking
+  country as a child, and spent the majority of her life in the west.
 
-### For laymen not linguists
-
-As a layman, trying to follow and understand two linguists describing
-aspects of an unfamiliar language can be an exercise in frustration. The
-conversations are full of arcane grammatical jargon and extremely nuanced points
-that can be quite hard to grasp. ("It's all Greek to me" doesn't
-begin to cover it!)
-
-Fortunately, our needs are at least _slightly_ more modest: we only wish to diagram
-sentences in _one_ language: Japanese.
-
-Further, we _presume_ at least a basic level of Japanese language skills.
-Specifically, readers should know at least a hundred or so simple Japanese words
-and be able to construct _basic_ Japanese sentences. Readers should possess
-something like a young, native child's capability in the language (but with
-adult understanding of concepts).
-
-We're also only diagramming structure (syntax), not meaning (semantics). One
-doesn't need a deep, nuanced understanding of Japanese to make sense of these
-diagrams, but the words themselves should help to explain the ideas displayed by
-a diagram (how the words are used and what affects what).
-
-As long as you can recognize "things" vs. "actions/existence" vs. "modifiers",
-the diagrams should make some sense.
-
-This _doesn't_ mean it's easy to _create_ accurate diagrams, though!
-
-Japanese grammar and syntax is quite complex in its own right. It often differs
-from English grammar in quite subtle ways.
-
-Worse, explaining things in one language by using another can introduce all sorts of
-unintended confusion. Like it or not, the languages we speak literally train
-the neural pathways in our brains. We tend to "think" in our own languages even
-when attempting to learn another (often causing confusion).
-
-True fluency requires "thinking" in the target languages, something we hope to
-encourage with these diagrams.
-
-### Japanese terminology
-
-While the diagrams themselves will _never_ contain any grammatical jargon in
-either language, we are forced to use grammatical terminology to explain how
-they are constructed.
-
-Because English and Japanese grammatical terms can have subtly different
-meanings, _this site always prefers the Japanese terms_! Whenever possible, we
-also provide English equivalents or translations, but when the meanings differ,
-no matter how subtly, we **always** intend the Japanese word and the Japanese
-meaning.
-
-#### Case in point
-
-The English word "noun" and the Japanese word <ruby>名詞<rp>(</rp><rt>めいし
-</rt><rp>)</rp></ruby> have pretty much identical meanings: "named things".
-
-"Verb" and <ruby>動詞<rp>(</rp><rt>どうし </rt><rp>)</rp></ruby> are also almost
-identical. Both are terms for the parts of speech evoking action, state,
-occurrence or change.
-
-But the word "adjective" is a _completely_ different ballgame. For one thing, Japanese has
-_two_ types of "adjectives": <ruby>形容詞<rp>(</rp><rt>けいようし
-</rt><rp>)</rp></ruby> and <ruby>形容動詞<rp>(</rp><rt>けいようどうし
-</rt><rp>)</rp></ruby>.
-
-Westerners typically call 「<ruby>動詞<rp>(</rp><rt>どうし</rt><rp>)</rp></ruby>」
-"verbs",　「<ruby>形容詞<rp>(</rp><rt>けいようし</rt><rp>)</rp></ruby>」 "い-adjectives", and
-「<ruby>形容動詞<rp>(</rp><rt>けいようどうし</rt><rp>)</rp></ruby>」 ”な -adjectives",
-respectively.
-
-Japanese middle schools teach that:
-
-> <ruby>動詞<rp>(</rp><rt>どうし</rt><rp>)</rp></ruby>, <ruby>形容詞<rp>(</rp><rt>けいようし
-> </rt><rp>)</rp></ruby>, and <ruby>形容動詞<rp>(</rp><rt>けいようどうし
-> </rt><rp>)</rp></ruby> are all <ruby>活用語
-> <rp>(</rp><rt>かつようご</rt><rp>)</rp></ruby> (conjugations) or
-> <ruby>用言<rp>(</rp><rt>ようげん</rt><rp>)</rp></ruby> (inflections). They are
-> all single words that describe action or state in the
-> <ruby>述語<rp>(</rp><rt>じゅつご</rt><rp>)</rp></ruby> (predicate) of a sentence.
-
-To a Japanese native, these words' ability to modify a noun is a
-_secondary_ usage. Their primary use is to indicate action/state/utilization, as
-opposed to things that _don't_ (<ruby>体言<rp>(</rp><rt>たいげん
-</rt><rp>)</rp></ruby>, things like nouns, adverbs, conjunctions, and
-interjections).
-
-Don't believe it? Consider the following:
-
-Japanese dictionaries often identify 形容動詞 as **だ**-words, but we consider them
-to be な-words! They think of them _first_ as
-<ruby>用言<rp>(</rp><rt>ようげん</rt><rp>)</rp></ruby> or verb-like (e.g. 「静かだ」&mdash;
-"it's quiet"). We think of them first as adjective-like (e.g. 「静かな犬」&mdash;
-"[a] quiet dog").
-
-That's why this site uses the Japanese terms whenever possible. The goal, as
-much as possible, is to _think about Japanese sentences like a Japanese native_.
-
-### Why study grammar/syntax?
-
-We all learned our native languages primarily by _immersion_ (repeated exposure
-and mimicry). We didn't study grammar and "rules" until fairly late in our childhood.
-
-The human brain is _incredibly_ well adapted to pattern matching. With
-sufficient _input_ and practice, we _can_ reach even fairly advanced levels of
-proficiency _without_ studying grammar.
-
-_Nothing_ is more beneficial to learning a language than massive amounts of
-_input_ (listening or reading) and constant practice (with feedback).
-
-So why study grammar?
-
-Eventually most countries force their schoolchildren to learn more about their
-native languages. Students learn to think _about_ their native languages. Most
-educated people eventually study grammar, composition, and classic literature at
-some point.
-
-The author believes this is beneficial and important (some might disagree!).
-
-Learning the structure and nuances of our languages allows us to
-communicate more effectively and to express more nuanced thoughts. The author
-feels that "ungrammared" is almost as much an impediment to communication as
-"illiterate".
-
-While "he done it" would likely be understood, it sounds unrefined. In the
-same way, 「その花がきれい！」 (without だ at the end) communicates the idea
-effectively enough, but sounds unfinished and unrefined.
-
-These diagrams provide a visual aid for reasoning about and composing with
-grammatical syntax and structure. If you don't value grammar, then you
-probably won't find sentence diagrams or this site terribly useful. (And you'd
-be _wrong_. 😉)
-
-### Learn like a native
-
-This site attempts to teach Japanese grammatical syntax similar to how it would
-be taught to Japanese <ruby>中学生<rp>(</rp><rt>ちゅうがくせい</rt><rp>)</rp></ruby>
-(middle-school students).
-
-("Attempts" being the key word. Much of the information is cribbed from [this
-wonderful site about Japanese grammar](https://www.kokugobunpou.com/).)
-
-Because this is a site for _foreign_ learners of Japanese, however, some
-concessions and alterations will occasionally arise.
-
-Whenever possible, concepts are introduced in the same order as a _Japanese_
-middle-school curriculum. The information is hierarchically organized using
-_Japanese_ taxonomies. Concepts are described with as _Japanese_ a mindset as
-the Author's English-native brain can provide.
-
-### Diagrams only
-
-This site only tries to explain how to diagram Japanese sentences.
-
-It does _not_, repeat **NOT**, attempt to teach _everything_ about Japanese
-grammar. We only present the high-level grammatical ideas relevant to
-diagramming.
-
-"Japanese grammar" is an extremely deep (and somewhat opinionated) subject!
-Hopefully, these diagrams help people to reason about deeper topics not covered here.
+- Jay Rubin's book _Making sense of Japanese_ is an outstanding resource. It
+  does exactly what it promises, and many of the ideas underly both the Cure
+  Dolly videos and this site. It's not structured as a textbook, but rather a
+  prose introduction to some of the most important aspects of the language that
+  English-speakers tend to misunderstand.
 
 ## Units of composition
 
@@ -212,11 +56,18 @@ words). In particular, identifying 文節 is the most critical part of diagrammi
 
 ## Parts of speech
 
-If 文 are the "molecules" of Japanese, then
+If 文章 are the "molecules" of Japanese, then
 <ruby>品詞<rp>(</rp><rt>ひんし</rt><rp>)</rp></ruby> (parts of speech) are the atoms.
 
-The character 詞, by the way, means "a part of speech." It usually indicates that the
-preceding word is a _grammatical type._
+That's not a very good analogy, though. The character 詞 means "a part of
+speech." It's used to indicate a grammatical _type_ or _function,_ not
+individual instances of words.
+
+The characters 言 or 語 generally indicate words, sayings, or
+collections of words or speech, but 詞 is reserved for _types_ of words (in
+English: "parts of speech").
+
+Japanese has ten types broken into different three major categories. Here is the taxonomy:
 
 ![Parts of speech diagram](/images/parts-of-speech-translated.png)
 
@@ -226,64 +77,153 @@ Most Japanese grammar resources refer to 八品詞, the "_eight_ parts of speech
 
 While there are only eight primary, or "freestanding" parts of speech, the
 diagram above also includes two additional auxiliary or attached types
-(aux-verbs and particles).
+(auxiliary-verbs and particles).
 
-The first eight are divided into two main categories:
+The ten parts of speech are divided into the following three categories:
 
-- <ruby>用言<rp>(</rp><rt>ようげん</rt><rp>)</rp></ruby> or "declinable" words.
+1.  <ruby>用言<rp>(</rp><rt>ようげん</rt><rp>)</rp></ruby> or "inflectable"
+    words.
 
-  That's enough linguistic-grammarian. These words _function_ as verb-like
-  "utilization" words: they are the part of a predicate that explains _what's
-  happening_. English tends to focus on the _who_ and _what_ within a sentence,
-  Japanese tends to focus on the _action_ or _state._
+    That's enough linguistic-grammarian. These words _function_ like verbs.
+    They are the part of a predicate that explain _what's happening_.
 
-  There are three types of 用言.
+    English tends to focus on the _who_ and _what_ within a sentence, while
+    Japanese tends to focus on the _action_ or _state._
 
-- <ruby>体言<rp>(</rp><rt>たいげん</rt><rp>)</rp></ruby> or "non-declinable" or
-  "substantive" words. This is everything else, primarily 名詞 (nouns), and 副詞
-  (adverbs).
+    English is often described as an "SVO" grammar (subject, verb, object in that
+    order): "I eat it".
 
-  There are five types of 体言.
+    Japanese is often described at "SOV" because the verb comes at the end. But
+    it's perhaps better considered a "SV" language, or even just a "V" language! In
+    Japanese, the exact same thought ("I eat it") might be expressed as
 
-There is also one more category containing auxiliary or attached "words" (in
-quotes because they aren't words on their own, they attach as suffixes to real
-words).
+    > 「食べる」
 
-### <ruby>用言<rp>(</rp><rt>ようげん</rt><rp>)</rp></ruby> declinable words
+    This is still a complete sentence, even though it's only a single word! The
+    subject "I" and object "food" are implied, and Japanese grammar rules allow
+    them to be omitted if they aren't necessary.
+
+    Think about it: If you offered food to a hungry Tarzan, and he replied with
+    an enthusiastic "Eat!", would you have any difficulty understanding that he
+    will eat the food you were offering? The words "I" and "it" are
+    unnecessary for comprehension, but English grammar rules pretty much
+    _mandate_ that we provide them (else we sound like Tarzan). Japanese doesn't
+    work that way! (Which makes me wonder how Tarzan speaks in Japanese manga.)
+
+    用言 are the most important parts of a Japanese sentence. They come at the
+    _end_ of sentences. It's not much of an overstatement to say that Japanese is
+    mostly read _backwards_.
+
+    There are _three_ types of 用言 (described in another section below).
+
+2.  "Non-inflectable" words, or things that _aren't_ 用言.
+
+    This consists primarily of "substantive" words (名詞 or nouns in English) that can
+    become the 主語 (subject) of a sentence. Things that can act as 名詞 are also
+    known as <ruby>体言<rp>(</rp><rt>たいげん </rt><rp>)</rp></ruby>.
+
+    This category also includes four more word types that _can't_ become a
+    subject, however. These basically comprise the the "other" sub-category
+    (they are secondary types and not as important to understanding as as 用言 and
+    体言).
+
+3.  Auxiliary or attached "words," or more accurately "word parts".
+
+    These aren't standalone words, but things that attach as suffixes to other
+    words.
+
+The most important parts-of-speech categories are 用言 and 体言:
+
+- 体言 are 名詞 (nouns) or things that have been "nominalized" to act like
+  nouns. They can become the <ruby>主語<rp>(</rp><rt>しゅご
+  </rt><rp>)</rp></ruby> (subject) of a sentence.
+
+- 用言, however, are 動詞, 形容詞, _or_ 形容動詞! They become the <ruby>述語
+  <rp>(</rp><rt>じゅつご</rt><rp>)</rp></ruby> (predicate) of a sentence.
+
+### <ruby>用言<rp>(</rp><rt>ようげん</rt><rp>)</rp></ruby> predicate words
 
 Japanese is a predicate-centric language. The words at the end of a clause
 (the predicate) tend to be the most important.
 
-As shown at the top of the diagram, there are three types of "declinable," standalone words
-that can become predicates all on their own (単独で述語となるもの).
+As shown at the top of the diagram, there are three types of "inflectable,"
+standalone words that can become predicates all on their own (単独で述語となるもの).
 
 > **Individual 用言 can become a predicate all on their own, without any other words or modifiers.**
 
-Because Japanese grammar considers an explicit subject optional, 行く, 寒い, and 静かだ
-(a 動詞, 形容詞, and 形容動詞 respectively) are _all complete sentences._
-
 These are the three types of 用言:
 
-1. 動詞 (verbs) indicate _action_ or _existence._ The plain form of these verbs
+1. <ruby>動詞<rp>(</rp><rt>どうし</rt><rp>)</rp></ruby> (verbs) indicate _action_ or _existence._ The plain form of these verbs
    always end with the う sound (anything from the う column like 〜う, 〜く, 〜す, 〜ぬ,
    〜る, _etc._).
 
-   Examples: 笑う、動く
+   Examples: <ruby>笑<rp>(</rp><rt>わら</rt><rp>)</rp></ruby>う (to laugh),
+   <ruby>動<rp>(</rp><rt>うご</rt><rp>)</rp></ruby>く (to move).
 
-2. 形容詞 (so-called "い-adjectives") indicate nature or _state_ and end with
-   the literal kana character い.
+2. <ruby>形容詞<rp>(</rp><rt>けいようし</rt><rp>)</rp></ruby> (so-called "い-adjectives")
+   indicate nature or _state_ and end with the kana character い.
 
-   Examples: 白い、近い
+   Examples: <ruby>白<rp>(</rp><rt>しろ</rt><rp>)</rp></ruby>い (is-white), <ruby>
+   近<rp>(</rp><rt>ちか</rt><rp>)</rp></ruby>い (is-near).
+
+   **IMPORTANT NOTE 1:**
+
+   These examples are better thought of as "is-white" and "is-near" rather than
+   just "white" and "near" (despite "meaning" the same thing to English
+   speakers). 白い and 近い (with the い) are standalone words that act as 用言
+   _and form a predicate all on their own._
+
+   In English, "near" and "white" are _purely_ adjectives, not "verb-like" at
+   all. They _only_ affect nouns on their own. To use them in a predicate, we'd
+   have to _add_ a verb like "is", but _形容詞 in Japanese act as predicates all on
+   their own._
+
+   Japanese think of 形容詞 is primarily 用言 and only incidentally as
+   "adjective-like". You should, too.
+
+   But English speakers are usually taught that 形容詞 are primarily _adjectives_.
+   They are taught that "い-adjectives" modify nouns, and that it's a _special case_ when they
+   come at the end of a sentence!
+
+   The author feels this causes confusion and leads to even advanced students
+   uttering "eihongo" sentences like 「東京は近い**だ**」&mdash; that extra だ is
+   grammatically wrong and _exactly_ equivalent to saying "Tokyo **is** is
+   near" (with an extra "is").
+
+   Thinking of 形容詞 words as meaning "is-◯" helps English speakers to internalize that
+   they are verb-like words that can stand on their own in a predicate _as well as_
+   describe nouns.
+
+   **IMPORTANT NOTE 2:**
+
+   The final い is _part of the word_, not an "い particle"! There is no such
+   thing as an い助詞. You aren't turning a word into a 形容詞 by adding い, the
+   形容詞 already has い as part of the word.
+
+   The word <ruby>白<rp>(</rp><rt>しろ</rt><rp>)</rp></ruby> (white) is 名詞, a _noun_.
+
+   The word <ruby>白<rp>(</rp><rt>しろ</rt><rp>)</rp></ruby>い (is-white) is 形容詞,
+   _and is an entirely different word_.
+
+   This is another reason the author believes it better to think of 白い as
+   "is-white" rather than just "white". It helps to enforce the idea that it's a
+   separate word on its own. Obviously they are _related_, but they are
+   different words and _not_ the same word with い appended.
 
 3. 形容動詞 (so-called "な-adjectives") indicate nature or state and end with
    the literal kana character だ.
 
    Examples: 静かだ、大変だ
 
-### <ruby>体言<rp>(</rp><rt>たいげん</rt><rp>)</rp></ruby> indeclinable words
+Because Japanese grammar considers an explicit subject optional, <ruby>行<rp>(</rp><rt>い
+</rt><rp>)</rp></ruby>く, <ruby>寒<rp>(</rp><rt>さむ
+</rt><rp>)</rp></ruby>い, and <ruby>静<rp>(</rp><rt>しず
+</rt><rp>)</rp></ruby>かだ (a 動詞, 形容詞, and 形容動詞 respectively) are **complete** sentences!
 
-There are five types of "indeclinable words" (words that aren't primarily action
-or state). Also known as "substantives".
+### Non-inflectable words
+
+There are five types of "non-inflectable" or "indeclinable" words (words that
+_aren't_ primarily action or state).
 
 4. 名詞 (nouns) Sub-types include pronouns, numbers, and counters.
 

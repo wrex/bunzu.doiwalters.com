@@ -27,12 +27,12 @@ export type Frontmatter = {
 
 export const KNOWN_LANGUAGES = {
   English: "en",
-  Japanese: "jp",
+  // Japanese: "jp",
 } as const;
 
 export const KNOWN_LANGUAGE_CODES = Object.values(KNOWN_LANGUAGES);
 
-export const GITHUB_EDIT_URL = `https://github.com/withastro/astro/tree/main/examples/docs`;
+export const GITHUB_EDIT_URL = `https://github.com/wrex/bunzu.doiwalters.com`;
 
 export const COMMUNITY_INVITE_URL = `https://astro.build/chat`;
 
@@ -51,7 +51,10 @@ export const SIDEBAR: Sidebar = {
   en: {
     Basics: [
       { text: "Introduction", link: "en/introduction" },
-      { text: "文法 (grammar)", link: "en/j-grammar" },
+      { text: "Content notes", link: "en/content" },
+    ],
+    Grammar: [
+      { text: "語彙 (terminology)", link: "en/j-grammar" },
       { text: "文節 (clauses)", link: "en/bunsetsu" },
     ],
     Diagramming: [
