@@ -56,6 +56,7 @@ export const SIDEBAR: Sidebar = {
     Grammar: [
       { text: "Parts of speech", link: "en/parts-of-speech" },
       { text: "用言 (predicate words)", link: "en/yougen" },
+      { text: "体言 and other", link: "en/taigen" },
       { text: "文節 (clauses)", link: "en/bunsetsu" },
     ],
     Diagramming: [
