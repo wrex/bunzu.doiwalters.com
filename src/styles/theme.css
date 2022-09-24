@@ -59,8 +59,8 @@
 
 :root {
   color-scheme: light;
-  --theme-accent: hsla(var(--color-orange), 1);
-  --theme-text-accent: hsla(var(--color-orange), 1);
+  --theme-accent: hsla(var(--color-yellow), 1);
+  --theme-text-accent: hsla(var(--color-yellow), 1);
   --theme-accent-opacity: 0.15;
   --theme-divider: hsla(var(--color-gray-95), 1);
   --theme-text: hsla(var(--color-gray-10), 1);
@@ -89,8 +89,8 @@ body {
 :root.theme-dark {
   color-scheme: dark;
   --theme-accent-opacity: 0.15;
-  --theme-accent: hsla(var(--color-orange), 1);
-  --theme-text-accent: hsla(var(--color-orange), 1);
+  --theme-accent: hsla(var(--color-yellow), 1);
+  --theme-text-accent: hsla(var(--color-yellow), 1);
   --theme-divider: hsla(var(--color-gray-10), 1);
   --theme-text: hsla(var(--color-gray-90), 1);
   --theme-text-light: hsla(var(--color-gray-80), 1);
