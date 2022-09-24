@@ -26,6 +26,8 @@
     "preact": "^10.7.3",
     "react": "^18.1.0",
     "react-dom": "^18.1.0",
+    "remark-gfm": "^3.0.1",
+    "remark-smartypants": "^2.0.0",
     "svelte": "^3.50.1"
   }
 }

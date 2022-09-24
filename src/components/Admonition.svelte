@@ -43,4 +43,8 @@
     border-top: 0;
     min-height: 0;
   }
+
+  .admonition .content :global(*):not(:last-child) {
+    margin-bottom: 1em;
+  }
 </style>
