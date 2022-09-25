@@ -4,19 +4,27 @@ description: Explaining Japanese clauses
 layout: ../../layouts/MainLayout.astro
 ---
 
-Every fully-formed 文 (sentence) contains at least one 文節 (clause). Many only
+import Admonition from "../../components/Admonition.svelte";
+
+Now lets move up from thinking about individual words to discussing grammatical
+_combinations_ of words.
+
+{/* prettier-ignore */}
+<ruby>文節<rp>(</rp><rt>ぶんせつ</rt><rp>)</rp></ruby> (clauses) are the most
+important grammatical structure when diagramming.
+
+Every fully-formed 文 (sentence) contains at least one 文節 (clause). Many _only_
 have one, but complex sentences might have many.
 
 **Every** clause comprises exactly two parts:
 
-<section class="admonition">
-  <header class="title">Important rule #1</header>
-  <p class="content">
-    <em>Every</em> clause <strong>always</strong> has a logical
-    <ruby>主語<rp>(</rp><rt>しゅご</rt><rp>)</rp></ruby> (subject) and
-    <ruby>述語<rp>(</rp><rt>じゅつご</rt><rp>)</rp></ruby> (predicate)!  
-  </p>
-</section>
+<Admonition title="Important">
+  _Every_ clause **always** has a logical
+  {/* prettier-ignore */}
+  <ruby>主語<rp>(</rp><rt>しゅご</rt><rp>)</rp></ruby> (subject) and
+  {/* prettier-ignore */}
+  <ruby>述語<rp>(</rp><rt>じゅつご</rt><rp>)</rp></ruby> (predicate)!
+</Admonition>
 
 These two parts form the framework of every clause.
 
@@ -27,8 +35,9 @@ The 主語 answers _who_ or _what_. The character 主 ("master") provides a clue
 in some state of being.
 
 The 主語 is usually identified by the
-<ruby>助詞<rp>(</rp><rt>じょし</rt><rp>)</rp></ruby> (particle)「が」that
-immediately follows.
+
+{/* prettier-ignore */}
+<ruby>助詞<rp>(</rp><rt>じょし</rt><rp>)</rp></ruby> (particle)「が」that immediately follows.
 
 One point of confusion for foreign learners: The 主語 is often
 _omitted_ in speech or writing. It's often _implied_ from prior context, or
@@ -36,7 +45,8 @@ something outside of the sentence itself.
 
 For example, imagine if someone pointed at a flower and uttered the single word sentence:
 
-> <ruby>咲 <rp>(</rp><rt>さ</rt><rp>)</rp></ruby>いている
+{/* prettier-ignore */}
+> <ruby>咲<rp>(</rp><rt>さ</rt><rp>)</rp></ruby>いている
 
 That is a complete, grammatical, single-clause Japanese sentence that means "blooming".
 
@@ -50,8 +60,9 @@ nonetheless!
 <section class="admonition">
   <header class="title">Important rule #2</header>
   <p class="content">
-    主語 are often omitted in writing or speech, but <em>something</em> <strong>always</strong> acts
-    as the "master" in <strong>every</strong> clause, even if isn't explicitly mentioned.
+    主語 are often omitted in writing or speech, but <em>something</em>{" "}
+    <strong>always</strong> acts as the "master" in <strong>every</strong>{" "}
+    clause, even if isn't explicitly mentioned.
   </p>
 </section>
 
@@ -159,8 +170,8 @@ at the end of the clause.
 
 Example:
 
-> <ruby>鳥<rp>(</rp><rt>とり</rt><rp>)</rp></ruby>　が　<ruby>鳴<rp>(</rp><rt>な</rt><rp>)</rp></ruby>く
-> ("[the] bird chirps")
+{/* prettier-ignore */}
+<ruby>鳥<rp>(</rp><rt>とり</rt><rp>)</rp></ruby>　が　<ruby>鳴<rp>(</rp><rt>な</rt><rp>)</rp></ruby>く ("[the] bird chirps")
 
 The 主語 in this sentence is 鳥 (bird). The 述語 is 鳴く(to chirp).
 
@@ -169,35 +180,50 @@ that can appear in 文節:
 
 ## 修飾語
 
-<ruby>修飾語<rp>(</rp><rt>しゅうしょくご</rt><rp>)</rp></ruby> are _modifiers_
-or qualifiers affecting something else.
+{/* prettier-ignore */}
+<ruby>修飾語<rp>(</rp><rt>しゅうしょくご</rt><rp>)</rp></ruby> are _modifiers_ or qualifiers affecting something else.
 
 For example, in the (subjectless) clause:
 
 > ゆっくり 歩く ("Walk slowly")
 
-the word ゆっくり (slowly) is 修飾語 (a modifer) and <ruby>歩<rp>(</rp><rt>ある
-</rt><rp>)</rp></ruby>く (to walk) is the 述語.
+the word ゆっくり (slowly) is 修飾語 (a modifer) and
+{/* prettier-ignore */}
+
+<ruby>
+  歩<rp>(</rp>
+  <rt>ある</rt>
+  <rp>)</rp>
+</ruby>
+く (to walk) is the 述語.
 
 #### 接続語
 
-<ruby>接続語<rp>(</rp><rt>せつぞくご</rt><rp>)</rp></ruby> are _conjunctives_
-that connect clauses.
+{/* prettier-ignore */}
+<ruby>接続語<rp>(</rp><rt>せつぞくご</rt><rp>)</rp></ruby> are _conjunctives_ that connect clauses.
 
 For example:
 
 > 安いのに、おいしい ("Even though [it's] cheap, [it's] delicious")
 
 Here, のに ("even though") is 接続語 (a connective or conjunctive) between two
-different (single word) clauses: <ruby>安<rp>(</rp><rt>やす
-</rt><rp>)</rp></ruby>い ("cheap") and おいしい ("delicious").
+different (single word) clauses:
+{/* prettier-ignore */}
+
+<ruby>
+  安<rp>(</rp>
+  <rt>やす</rt>
+  <rp>)</rp>
+</ruby>
+い ("cheap") and おいしい ("delicious").
 
 Note that _both_ clauses have "omitted" the subject. It's actually the same implied
 subject in both clauses (whatever food they are talking about).
 
 #### 独立語
 
-<ruby>独立語<rp>(</rp><rt>どくりつ</rt><rp>)</rp></ruby> are _independent,
+{/* prettier-ignore */}
+<ruby>独立語<rp>(</rp><rt>どくりつ</rt><rp>)</rp></ruby> are _independent, 
 standalone_ words (interjections and exclamations).
 
 The serve almost no functional/structural purpose. We can mostly ignore them
