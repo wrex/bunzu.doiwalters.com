@@ -64,9 +64,8 @@ export const SIDEBAR: Sidebar = {
       { text: "Examples", link: "en/examples" },
     ],
     Afterword: [
-      { text: "Recommended tools", link: "en/tools" },
+      { text: "Learning resources", link: "en/tools" },
       { text: "About", link: "en/about" },
-      { text: "Feedback", link: "en/feedback" },
     ],
   },
 };
