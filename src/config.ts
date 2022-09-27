@@ -61,7 +61,7 @@ export const SIDEBAR: Sidebar = {
     ],
     Diagramming: [
       { text: "Basics", link: "en/basics" },
-      { text: "Examples", link: "en/examples" },
+      { text: "Topics and は", link: "en/topics" },
     ],
     Afterword: [
       { text: "Learning resources", link: "en/tools" },
