@@ -3,8 +3,9 @@
 </script>
 <script>
       export let caption;
+      export let isFirstOnPage = false;
 
-      counter += 1;
+      counter = isFirstOnPage ? 1 : counter + 1;
       let figureId = 'fig' + counter;
 
 </script>
@@ -17,7 +18,7 @@
 <style>
   figure {
     font-size: smaller;
-    border: thin var(--theme-code-text) solid;
+    border: thin var(--theme-text) solid;
     padding: 0.5em;
   }
 </style>
