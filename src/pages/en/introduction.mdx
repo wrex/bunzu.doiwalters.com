@@ -5,6 +5,7 @@ layout: ../../layouts/MainLayout.astro
 ---
 
 import Admonition from "../../components/Admonition.svelte";
+import Figure from "../../components/Figure.svelte";
 
 <Admonition title="Warning!">
 This site is still a work in progress — a very early stage of progress.
@@ -50,10 +51,11 @@ _Anyone_ with a minimal understanding of English can view an English sentence
 diagram and immediately understand the basic information presented, even if they
 don't know a noun from a verb.
 
-Here's an example diagram for an English sentence (using rules for English
-sentences that won't be explained further):
+Here's an example (using English sentence diagrams that won't be explained further):
 
-![Sample Diagram](/images/english-diagram.png)
+<Figure caption="Sample English sentence diagram" resetCounter>
+  ![Sample Diagram](/images/english-diagram.png)
+</Figure>
 
 The original sentence is shown at the top: "Japanese people eat meals at home
 with pointy sticks".

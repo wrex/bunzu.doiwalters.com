@@ -5,6 +5,7 @@ layout: ../../layouts/MainLayout.astro
 ---
 
 import Admonition from "../../components/Admonition.svelte";
+import Figure from "../../components/Figure.svelte";
 
 Finally we can get to actually creating some diagrams!
 
@@ -55,7 +56,9 @@ There's obviously only one clause, and single words for both parts of that claus
 
 Here is how we'd diagram that sentence:
 
-![Example 1: I ate](/images/ex1-I-ate.png)
+<Figure caption="私が食べた" resetCounter>
+  ![diagram for 'I ate'](/images/ex1-I-ate.png)
+</Figure>
 
 There are a few things to notice:
 
@@ -84,7 +87,9 @@ The 述語 (predicate) won't always be a 動詞 (verb). It could also be 形容�
 
 The structure is identical (original sentences elided to save space):
 
-![Example 2: Other 用言](/images/ex2-other-yougen.png)
+<Figure caption="Other 用言">
+  ![other 用言 diagrams](/images/ex2-other-yougen.png)
+</Figure>
 
 Notes:
 
@@ -102,7 +107,9 @@ Notes:
 
 So far we've used plain forms of the verbs. Using polite forms doesn't change much:
 
-![Example 3: Polite forms](/images/ex3-polite-forms.png)
+<Figure caption="Polite forms">
+  ![diagrams for polite forms](/images/ex3-polite-forms.png)
+</Figure>
 
 Again we've left out the original sentences since they are obvious, and again we
 separate the dictionary forms with a dot. These are polite forms of 用言, but
@@ -123,7 +130,9 @@ Say, for example, the sentence was simply 「食べた」(a verb meaning "ate").
 explicit from the sentence who or what did the eating, so we use the zero
 pronoun to stand in for "he" or "she" or "it":
 
-![Example 4: The zero pronoun](/images/ex4-zero-pronoun.png)
+<Figure caption="The zero pronoun">
+  ![diagram with the zero pronoun](/images/ex4-zero-pronoun.png)
+</Figure>
 
 Notes:
 
@@ -149,7 +158,9 @@ possible to create single-word sentences out of 体言 (basically nouns) or the
 
 Diagramming the examples from that section:
 
-![Example 5: Implied copula](/images/ex5-cow-quiet-cold.png)
+<Figure caption="Implied predicates">
+  ![Implied predicates](/images/ex5-cow-quiet-cold.png)
+</Figure>
 
 Notes:
 
@@ -206,7 +217,7 @@ introduces a grammatical _object_, something the 述語 is acting on or with.
 None of the example sentences so far have involved an object, so let's add an
 object to our "I ate" example. Let's diagram "I ate _sushi_".
 
-![Example 6: Objects](/images/ex6-objects.png)
+<Figure caption="Objects">![Objects](/images/ex6-objects.png)</Figure>
 
 Notes:
 
@@ -235,7 +246,9 @@ other modifiers.
 
 Let's take a more complex example:
 
-![Example 7: Several modifiers](/images/ex7-white-dog-eating.png)
+<Figure caption="Several modifiers">
+  ![Several modifiers](/images/ex7-white-dog-eating.png)
+</Figure>
 
 Notes:
 
