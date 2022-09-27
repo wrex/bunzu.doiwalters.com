@@ -60,7 +60,7 @@ export const SIDEBAR: Sidebar = {
       { text: "文節 (clauses)", link: "en/bunsetsu" },
     ],
     Diagramming: [
-      { text: "How to", link: "en/howto" },
+      { text: "Basics", link: "en/basics" },
       { text: "Examples", link: "en/examples" },
     ],
     Afterword: [
