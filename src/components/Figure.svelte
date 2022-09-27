@@ -9,7 +9,7 @@
 
 </script>
 
-<figure id={eltId}>
+<figure id={figureId}>
   <slot />
   <figcaption><a href="#{figureId}">Figure {counter}.</a> {caption}</figcaption>
 </figure>    
