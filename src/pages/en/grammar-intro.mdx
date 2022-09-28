@@ -5,6 +5,7 @@ layout: ../../layouts/MainLayout.astro
 ---
 
 import Admonition from "../../components/Admonition.svelte";
+import Figure from "../../components/Figure.svelte";
 
 Japanese grammar is a very deep and difficult subject. What we cover here is
 only the tip of the iceberg (it's just the high-level stuff necessary to
@@ -91,8 +92,11 @@ The ten parts of speech are broken into three major categories as shown in the
 diagram below:
 
 {/* prettier-ignore */}
-1.  <strong><ruby>用言<rp>(</rp><rt>ようげん</rt><rp>)</rp></ruby></strong> or
-    "inflectable" words that are used in the predicate.
+1.  <strong><ruby>用言<rp>(</rp><rt>ようげん</rt><rp>)</rp></ruby></strong> are
+    the most important category. Grammarians call these
+    "inflectable" or "declinable" words that are used in the predicate. Honestly, the Japanese
+    characters are easier to understand: 用言 means "use words" or "utilization
+    words". They _do_ things.
 
 2.  **Non-inflectable words**, or freestanding words that _aren't_ 用言.
 
@@ -102,7 +106,9 @@ We will describe each of these categories in turn.
 
 ### The parts-of-speech taxonomy
 
-![Parts of speech diagram](/images/parts-of-speech-translated.png)
+<Figure caption="Parts of speech">
+  ![Parts of speech diagram](/images/parts-of-speech-translated.png)
+</Figure>
 
 ### 用言: predicate words
 

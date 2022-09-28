@@ -1,18 +1,29 @@
-<script context="module">
-  let counter = 0;
+<script lang=ts>
+  export let caption = "";
+
+  function makeSafeForCss(name: string) {
+    return name.replace(/[^a-z0-9]/g, function(s) {
+        var c = s.charCodeAt(0);
+        if (c == 32) return '-';
+        if (c >= 65 && c <= 90) return s.toLowerCase();
+        return '__' + ('000' + c.toString(16)).slice(-4);
+    });
+  }
+
+  function getId() {
+    console.log(caption);
+    return "fig_" + makeSafeForCss(caption);
+  }
+
+  function getIdRef() {
+    return "#" + getId();
+  }
+
 </script>
-<script>
-      export let caption;
-      export let isFirstOnPage = false;
 
-      counter = isFirstOnPage ? 1 : counter + 1;
-      let figureId = 'fig' + counter;
-
-</script>
-
-<figure id={figureId}>
+<figure id={getId()}>
   <slot />
-  <figcaption><a href="#{figureId}">Figure {counter}.</a> {caption}</figcaption>
+  <figcaption><a href={getIdRef()}>Figure</a>: {caption}</figcaption>
 </figure>    
 
 <style>
