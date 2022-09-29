@@ -4,6 +4,179 @@ description: Diagraming different uses of は
 layout: ../../layouts/MainLayout.astro
 ---
 
-TODO
+import Admonition from "../../components/Admonition.svelte";
+import Figure from "../../components/Figure.svelte";
+
+To an English-speaking layman, the words "topic" and "subject" seem pretty much
+identical. They both can mean "what we're currently talking about".
+
+Grammarians, though, make a distinction:
+
+- The grammatical _subject_ refers to the "doer" in a clause. The Japanese word
+  for "subject" is [主語](/en/bunsetsu#%E4%B8%BB%E8%AA%9E-subjects). It's the
+  "master" that is doing whatever is indicated by the predicate. (The predicate
+  specifies whether the "master" is performing an action or just "existing" in
+  some state.)
+
+- The word _topic_ is reserved for "what we're currently talking about". It
+  simply provides overall context. A _topic_ might be explicit (actually
+  mentioned within a sentence) or explicit (from prior sentences or based on
+  where a conversation is occurring). A sentence might mean different things in
+  different contexts. The _topic_ clarifies what specific meaning was intended.
+
+English doesn't use _explicit_ topics very often. When we do, it's usually with
+a construct like:
+
+> As for ◯, ...
+
+or
+
+> Regarding ◯, ...
+
+The _topic_ is whatever was in the circle.
+
+Japanese, however, uses explicit topics all the time. This leads to much
+confusion for English-speaking language learners, since even extremely simple
+and incredibly common sentences contain explicit _topics_ but only implicit
+_subjects_.
+
+## I am American
+
+Take this extremely simple, common sentence:
+
+> 私はアメリカ人です
+
+Most people would translate that into English as "I am an American".
+
+_Semantically_, that would be absolutely correct. That's what the sentence
+_means_.
+
+Structurally, though, that's not what the sentence actually _says_!
+
+A more literal _transliteration_ (vs. translation) for this sentence would be:
+
+> As for _me_, @ is-American-person
+
+The character 私 in this sentence is the _topic_ "me" and _not_ the grammatical
+subject. The _topic_ is "me," the _logical_ subject is "I", and the literal,
+_syntactical_ subject that would go on a diagram is _the zero pronoun!_
+
+<Admonition title="Important">
+
+The particle は **never**, repeat _never,_ identifies the grammatical subject!
+
+It quite often introduces a _topic_ that _implies_ a subject, but it never
+indicates the subject itself.
+
+An explicit subject for a clause will only be identified by the particle が,
+never by は.
+
+</Admonition>
+
+This is how we'd diagram this sentence:
+
+<Figure caption='"I am an American" in Japanese'>
+  ![Sentence diagram for "I am an American"](/images/I-am-American.png)
+</Figure>
+
+Notes:
+
+- Semantically, this sentence simply _means_ "I am an American", but that's _not_ what it
+  literally says!
+
+  The semantic meaning, the _translation,_ is idiomatic and correct in _both_
+  directions. If someone asked to _translate_ "I am an American" into Japanese,
+  then 「私はアメリカ人です」 is a perfectly correct response. But a strict
+  _transliteration_ would be different.
+
+- Syntactically, there is quite a bit more going on under the covers. The
+  diagram makes the hidden parts visible:
+
+  - The _topic_ is "me" (not "I"). We diagram topics with dotted lines
+    connecting to the clauses they affect.
+
+  - The _subject_ ([主語](/en/bunsetsu#%E4%B8%BB%E8%AA%9E-subjects)) is the zero pronoun, @, standing in for "I".
+
+  - The _predicate_ ([述語](/en/bunsetsu#%E8%BF%B0%E8%AA%9E-predicates)) is アメリカ人です.
+
+    - アメリカ人 is a 名詞 (noun) meaning American-person. We could just shorten
+      this to "American" since it mostly means the same thing, but
+      American-person disambiguates from things like "American" music (アメリカの音楽).
+
+    - です is a 助動詞 (auxiliary verb) acting as a _copula._
+
+      - 助動詞 never work on their own, they are _auxiliary_ words that must always
+        attach to other words.
+
+      - A copula _couples_ the preceding noun to the subject. In this case, it says that the
+        subject (@) _is_ an American person.
+
+    - The combination of 名詞＋助動詞 forms a [用言](/en/grammar-intro#%E7%94%A8%E8%A8%80-predicate-words). It's correct to think of
+      アメリカ人です as one grammatical unit, an "is-verb". We use the "dictionary dot" to
+      separate the two words you'd find separately in a dictionary, but it's
+      best to think of things like 静かだ and アメリカ人です as single
+      grammatical units, as ["is-verbs"](/en/yougen#is-verbs-not-adjectives).
+
+- The "core" clause of the sentence is just アメリカ人です
+  ("is-American-person"). The topic is not part of the core clause.
+
+- If we were to read the entire transliteration aloud, it would be: "me,
+  is-American-Person". As always, we skip over the stuff in brackets.
+
+- But those bracketed parts _really are_ part of the sentence!
+
+  - The topic _is_ "me". In English, we'd typically introduce this topic by
+    saying "As for me", not just "me". In Japanese, the particle は suffices.
+
+  - The subject really is part of the clause, it's just implied. The sentence
+    「私は彼がアメリカ人です」 ("As for me, he is an American person") _sounds_
+    weirdly verbose but is just as grammatically correct and has the identical
+    semantic meaning.
+
+- Exposing all this hidden complexity for such a simple sentence probably seems
+  counter-productive. But this is exactly how this sentence actually _works._
+  Exposing this complexity in a diagram this way pays dividends once we start
+  analyzing more complex sentences.
+
+## Topics and subjects can differ
+
+In 私はアメリカ人です, the topic and the subject were the same human being (私).
+That won't always be the case.
+
+Take, for example, the English sentence "Every Sunday, my father makes sushi".
+Here, the topic is "Sunday" but the subject of the primary clause is "my
+father".
+
+In Japanese:
+
+<Figure caption="Every Sunday, my father makes sushi">
+  ![Diagram for "Every Sunday, my father makes sushi"](/images/weekly-sushi.png)
+</Figure>
+
+Notes:
+
+- The topic is the long, compound-word 毎週日曜日. We've diagrammed this as a
+  single compound 名詞 (noun) meaning "every Sunday" in English.
+
+  The first character is a prefix meaning "every". The next character means
+  "week". The final three characters are another 名詞 meaning "Sunday". All
+  together it expresses the semantic concept "every week Sunday" or just "every Sunday".
+
+  When kanji are just jammed together like this, where each part sequentially
+  qualifies the next without any particles in between, it's easiest to think of
+  them as just a single compound noun (which we've transliterated here as
+  "every-Sunday").
+
+  If the sentence had started 毎週**の**日曜日は〜, we would have shown 毎週 as a modifier hanging below the
+  topic of 日曜日. Since there is no intervening particle, we've chosen to diagram
+  it as a compound-noun instead.
+
+- The core clause is お父さんが作る ("father makes"). The subject is お父さん (father) and the
+  predicate is 作る (make).
+
+- There is an explicit object in this example, 寿司, introduced with the
+  particle を, so we hang it below the predicate. "Father makes sushi".
+
+---
 
 TODO How to diagram something like 太郎くん、しずかにたべようよ
