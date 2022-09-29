@@ -54,9 +54,10 @@ Let's start with an extremely simple example:
 
 There's obviously only one clause, and single words for both parts of that clause:
 
-- The 主語 is the single word 私 (identified by the particle が). "I" am doing the action.
+- The 主語 is the single word 私 (identified by the particle が). "I" is the master
+  doing the action.
 
-- The 述語 is the single verb 食べた (the past tense of 食べる). The action was "eating".
+- The 述語 is the single verb 食べた (the past tense of 食べる). The action was "ate".
 
 Here is how we'd diagram that sentence:
 
@@ -74,8 +75,10 @@ There are a few things to notice:
   present in the original sentence (が identifies subjects).
 
 - This sentence doesn't use the plain or dictionary form of the 動詞　食べる, it
-  uses an inflection (食べた). We use a dot to separate the stem of the verb
-  from any 助動詞 (auxiliary verbs). (This example happens to use an 一段動詞.)
+  uses an inflection (食べた). We use an optional dot to separate the stem of the verb
+  from any 助動詞 (auxiliary verbs). The dot is optional and is a little
+  different usage from most Japanese dictionaries (which sometimes use the dot
+  to separate the kanji reading from the okurigana).
 
 - If the sentence was 私が食べる ("I eat"), we _wouldn't_ use a dot. The
   predicate would just be 食べる (since that's what will be found in the dictionary).
@@ -85,9 +88,16 @@ There are a few things to notice:
 The 述語 (predicate) won't always be a 動詞 (verb). It could also be 形容詞 or
 形容動詞. We might, for example have the sentences:
 
-- 私が眠い (translation: "I am sleepy")
+- 私が眠い (transliteration: "I am-sleepy")
 
-- 私が静かだ (translation: "I am quiet")
+- 彼が静かだ (transliteration: "He is-quiet")
+
+We expressly transliterate the 用言 at the end of the sentences into
+["is-verbs"](/en/yougen#is-verbs-not-adjectives) rather than "adjectives". We
+are doing word-for-word **transliteration** rather than semantic translation
+(English often requires us to reorder or add words to keep things
+understandable, but transliterating this way reenforces the idea that
+these _aren't_ adjectives, they are full predicates all on their own.)
 
 The structure is identical (original sentences elided to save space):
 
@@ -100,11 +110,12 @@ Notes:
 - Since 形容詞 appear in the dictionary _with_ the い appended, we don't use a
   dot (the い isn't a particle).
 
-- Since 形容動詞 _don't_ include the final だ in the dictionary, we use a dot
+- Since 形容動詞 _don't_ include the final だ in the dictionary, we use an optional dot
   between the 形容動詞 and the 助動詞 (auxiliary verb) だ.
 
-- Note in particular that だ in that last example is a 助動詞, an _auxiliary_ verb.
-  It turns 静か into a 用言, but neither part is a verb, nor does either part function
+- Note in particular that だ in that last example is part of the 形容動詞, but
+  if it followed a noun it would technically be 助動詞, an _auxiliary_ verb.
+  Here, it turns 静か into a 用言, but neither part is a verb, nor does either part function
   alone. _Both_ parts _together_ become a 用言 and form the predicate.
 
 ### Polite forms
@@ -121,14 +132,15 @@ nothing has changed structurally.
 
 ## Implied parts
 
-Amazingly, Japanese sentences can leave out _either_ the subject or the
-predicate and they still make sense.
+Japanese sentences can leave out quite a bit and still remain fully grammatical
+sentences. The entire subject or part of the predicate can be omitted and the
+sentence will still make sense.
 
 ### Implied subjects
 
-If all that's given is 用言, the subject is implied. As discussed in the grammar
-section, [it's helpful to think of the zero pronoun filling in when the subject
-is omitted](http://localhost:3000/en/bunsetsu#the-zero-pronoun).
+If all that's given is a 用言, then the subject is implied. As discussed in the
+grammar section, [it's helpful to think of the zero pronoun filling in when the
+subject is omitted](http://localhost:3000/en/bunsetsu#the-zero-pronoun).
 
 Say, for example, the sentence was simply 「食べた」(a verb meaning "ate"). It isn't
 explicit from the sentence who or what did the eating, so we use the zero
@@ -143,22 +155,23 @@ Notes:
 - We use "@" to represent the zero pronoun. We use brackets to show that neither
   the @ nor が are literally present in the original sentence.
 
-- The core clause along the baseline is _read_ 「食べた」 -- the stuff in brackets is ignored.
-
-  [Unless we are talking about _the diagram_ rather than the original sentence.
-  In that case, it's helpful to say「『まるが』食べた」 with "air quotes" around
-  the first bit.]
+- The core clause along the baseline is still _read_ 「食べた」 -- the stuff in
+  brackets is ignored. [Unless we are talking _about the diagram_ rather than
+  about the original sentence. In that case, it's helpful to say「『まるが』食べた」 with
+  "air quotes" around the first bit.]
 
 - This sentence does _not_ mean "I ate", nor does it mean "she ate", nor "it
   ate". Without additional context we simply don't know who or what's
   doing the eating, so we use &ldquo;@&rdquo; to fill in.
 
+- As always, a clause _must_ have both a subject and a predicate, even if the
+  subject is implied and not explicitly present.
+
 ### Implying _predicates_
 
-As also discussed
-[previously](http://localhost:3000/en/bunsetsu#missing-%E8%BF%B0%E8%AA%9E), it's
-possible to create single-word sentences out of 体言 (basically nouns) or the
-"adjectives".
+As we also discussed
+[previously](http://localhost:3000/en/bunsetsu#missing-%E8%BF%B0%E8%AA%9E), one can
+create single-word sentences out of 体言 (basically nouns) or "adjectives".
 
 Diagramming the examples from that section:
 
@@ -168,8 +181,10 @@ Diagramming the examples from that section:
 
 Notes:
 
-- Despite all the extra stuff in brackets that make things that are only
-  _implied_ visible, these diagrams are simply display three _one-word_ sentences:
+- Despite all the extra stuff in brackets, these diagrams simply display three
+  _one-word_ sentences. We put things in brackets expressly to make the implied
+  stuff _visible_. Structurally speaking, these implied parts are absolutely
+  parts of the sentences.
 
   - 「牛」(transliterated: "@ is-cow")
 
@@ -177,7 +192,7 @@ Notes:
 
   - 「寒い」 (transliterated: "@ is-cold")
 
-- The single word provided must be interpreted as 用言 -- they form the
+- The single words provided _must_ be interpreted as 用言 -- they form the
   _predicate_, not the subject.
 
 - The zero object is the implied subject in all three sentences. There is no way to know
@@ -185,14 +200,14 @@ Notes:
   "it". The semantic meaning comes from context.
 
 - We _don't_ add an implied だ with 形容詞. The word 寒い is _already_ 用言. It
-  doesn't need the だ　助動詞 to turn it into one.
+  doesn't need だ to turn it into one.
 
 ## Modifiers
 
 Japanese has a wonderful system of [助詞 or
 particles](http://localhost:3000/en/taigen#%E5%8A%A9%E8%A9%9E%E3%81%98%E3%82%87%E3%81%97-particles)
 that explicitly inform us of what different parts of a sentence are doing. They
-can tell us if something is specifying a location, a starting point, an ending
+tell us if something is specifying a location, a starting point, an ending
 point, a means of doing something, etc.
 
 These modifiers don't actually change the meaning of the core clause, however.
@@ -225,23 +240,24 @@ object to our "I ate" example. Let's diagram "I ate _sushi_".
 
 Notes:
 
-- The original sentence in it's entirety is 「寿司を食べた」.
-
-- The core clause is just 「食べた」.
+- The original sentence in it's entirety is 「寿司を食べた」, but the _core_
+  clause is just 「食べた」. The same clause we looked at earlier ("sushi" just
+  adds more information, it tells as _what_ was eaten).
 
 - An English translation of that core clause is impossible without more context.
-  We don't know who or what ate the sushi. We don't know whether to use a
+  We still don't know who or what ate the sushi. We don't know whether to use a
   subject of "I", "he", "she", or "it". So we use the magic zero pronoun @
   instead.
 
-- The object affectively modifies or _qualifies_ the 述語. It tells us _what_
-  was eaten. English sentence diagrams have a special notation for objects, but
-  Japanese sentence diagrams just dangle them below whatever they are
-  modifying/qualifying.
-- Unlike the stuff on the horizontal line (the core of a clause) we don't
+- English sentence diagrams have a special notation for objects, but in Japanese
+  grammatical objects identified with を are just a modifier like any other
+  modifier (as we'll see). We dangle modifiers below whatever they
+  modify/qualify.
+
+- Unlike the stuff on the horizontal line (the _core_ of the clause) we don't
   include the particle with the word 寿司. Instead, we write the particle on the
-  stem of the "hangar". This informs us what type of modifying/qualifying is
-  going on.
+  stem of the "hanger". This informs us what _type_ of modifying/qualifying is
+  going on (sushi is the _grammatical object_ because of the を).
 
 ### Other modifiers
 
@@ -256,17 +272,49 @@ Let's take a more complex example:
 
 Notes:
 
-- Modifiers hang below the main clause baseline in the order they appear in the
-  original sentence. The sentence starts with 白い so it attaches to the left of the
-  subject.
+- The _core_ of this longer sentence is just 「犬が食べている」.
 
-- 形容詞 can also act as modifiers for 体言 as well as appearing in the 述語, but they
-  don't need a particle. They always confer a sense of nature or state. So the
-  stem of the first modifier remains bare.
+- Modifiers hang below the things they modify in the same order as they appear
+  in the original sentence. The sentence starts with 白い so it attaches to the left
+  of the subject.
 
-- All the other modifiers have explicit particles indicating what information
-  they impart. The _location_ is "inside" (indicated by で). The eating is
-  happening "quietly" (indicated by に).
+  Note, however, that the explicit particles in Japanese _allow
+  modifiers to be moved around at will in a sentence,_ but in a diagram, they
+  always hang from the things they modify.
+
+  The sentence 「白い犬が静かに家の中で食べている」has precisely the same
+  semantic meaning as the original, despite swapping the order of the middle
+  modifiers. The swapped modifiers would still hang below the 述語 since that's
+  what they modify (but we'd normally swap their order in the diagram as well
+  for clarity).
+
+- We don't attach a particle to the stem for the modifier 白い. 形容詞 can also
+  modify 体言 as well as acting as the 述語, but they don't need a particle. They
+  always confer a sense of nature or state. So the stem of the first modifier
+  remains bare.
+
+  (The word 白い really _is_ an "adjective" here, but it's still better to consider
+  it an example of the 形容詞 part of speech. It's just a modifier like all the
+  others.)
+
+- All of the other modifiers have explicit particles indicating what type of
+  modifying/qualifying is happening.
+
+  The _location_ is "inside" ([indicated by
+  で](https://www.tofugu.com/japanese-grammar/particle-de/#for-specifying-places)).
+
+  The eating is happening "quietly" ([indicated by
+  に](https://www.tofugu.com/japanese-grammar/particle-ni/#adj---adverb)).
+
+  Western grammarians tend to think of particles like に here _changing_ the
+  grammatical function of the "な-adjective" 静か from an adjective into an adverb.
+
+  The author finds it easier to think of 静か as _always and forever 形容動詞._ It
+  doesn't matter whether it used in a predicate or as a particle-identified
+  modifier for something else, it's just a 形容動詞 specifying a state or condition
+  just like they always do.
+
+  This is the Japanese way to think about the grammar.
 
 - Multiple modifiers affecting the same thing are placed next to each other (中
   で and 静かに both affect the predicate, so they are next to each other on the
