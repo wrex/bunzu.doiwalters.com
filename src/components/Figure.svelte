@@ -11,7 +11,6 @@
   }
 
   function getId() {
-    console.log(caption);
     return "fig_" + makeSafeForCss(caption);
   }
 
