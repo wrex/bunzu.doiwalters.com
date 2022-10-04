@@ -7,13 +7,16 @@ layout: ../../layouts/MainLayout.astro
 import Admonition from "../../components/Admonition.svelte";
 import Figure from "../../components/Figure.svelte";
 
-Japanese grammar is a very deep and difficult subject. What we cover here is
-only the tip of the iceberg (it's just the high-level stuff necessary to
-understand sentence diagrams).
+Japanese grammar is a very deep and difficult subject, and the author is _not_
+an expert. What we cover here is only the tip of the iceberg (it's mostly the
+high-level stuff necessary to understand sentence diagrams).
 
-## Grammar resources
+## Online resources
 
-For a more thorough introduction to Japanese grammar, the author highly recommends:
+For a more thorough introduction to Japanese grammar, the author highly
+recommends the following free sites:
+
+### Written in English
 
 - [The Tofugu grammar hub](https://www.tofugu.com/japanese-grammar/)
 
@@ -37,201 +40,45 @@ For a more thorough introduction to Japanese grammar, the author highly recommen
   more conversational prose. It introduces some of the most important aspects
   of the language (things that English-speakers tend to misunderstand).
 
-## Units of composition
+### Written in Japanese
 
-Japanese schoolteachers would teach these basic units or divisions of Japanese
-writing, from largest to smallest:
+Most of this section is the author's attempt at translating material from a
+wonderful online Japanese grammar tutorial aimed at Japanese middle-school students: [国語の文
+法](https://www.kokugobunpou.com/#gsc.tab=0).
 
-{/* prettier-ignore */}
-- <strong><ruby>文章<rp>(</rp><rt>ぶんしょう</rt><rp>)</rp></ruby></strong> Means writing in general (an article, composition, essay, or, an individual _sentence_.)
+We only present a drastically reduced subset of the material available on the
+original site, however. Please refer to the original for further explanation.
 
-{/* prettier-ignore */}
-- <strong><ruby>段落<rp>(</rp><rt>だんらく</rt><rp>)</rp></ruby></strong> A paragraph. Literally, "falling rows" of text.
+Again, the goal is to explain Japanese grammar _as it is taught to Japanese
+natives_, using Japanese terminology as much as possible. Further, we only teach
+enough grammar to enable one to create Japanese sentence diagrams.
 
-{/* prettier-ignore */}
-- <strong><ruby>文<rp>(</rp><rt>ぶん</rt><rp>)</rp></ruby></strong> A sentence (that can be delimited with a period.)
+Any errors on the remainder of this site are almost certainly due to the author's poor
+Japanese reading skills and misunderstanding of the concepts.
 
-{/* prettier-ignore */}
-- <strong><ruby>文節<rp>(</rp><rt>ぶんせつ</rt><rp>)</rp></ruby></strong> An individual clause or phrase within a sentence.
+## Organization
 
-{/* prettier-ignore */}
-- <strong><ruby>単語<rp>(</rp><rt>たんご</rt><rp>)</rp></ruby></strong> An individual word.
+The remainder of this section mirrors the organization of the
+[kokugobunpou.com](https://www.kokugobunpou.dom) site:
 
-We are only concerned with 文, 文節, and 単語 (sentences, clauses/phrases, and
-words). In particular, identifying 文節 is the most critical part of diagramming.
-
-## Parts of speech
+- [Grammar Foundations](grammar/1-foundations)
 
 {/* prettier-ignore */}
-If 文章 are the "molecules" of Japanese, then <strong><ruby>品詞<rp>(</rp><rt>ひんし</rt><rp>)</rp></ruby></strong> (parts of speech) are the atoms.
-
-That's not a perfect analogy, though. The character 詞 means "a part of speech."
-It's used to indicate a grammatical _type_ or _function,_ and doesn't refer to
-individual words themselves. The characters 言 or 語 usually usually refer to
-individual words/speech or groups of words, while 詞 indicates parts-of-speech specifically.
-
-Most of us are familiar with the _English_ parts-of-speech called _nouns_ and _verbs._
-Unsurprisingly, Japanese has both of these as well, but the Japanese names are:
+- [<ruby>用言<rp>(</rp><rt>ようげん</rt><rp>)</rp></ruby>](grammar/2-yougen)
 
 {/* prettier-ignore */}
-- <ruby>名詞<rp>(</rp><rt>めいし</rt><rp>)</rp></ruby> "noun" (literally, "named part of speech")
+- [non-用言 (non-predicate words)](grammar/3-non-yougen)
 
 {/* prettier-ignore */}
-- <ruby>動詞<rp>(</rp><rt>どうし</rt><rp>)</rp></ruby> "verb" (literally,
-  "movement/change part of speech")
-
-Including these, Japanese has ten total parts of speech, broken into three major categories.
-
-<Admonition title="Note">
-  Many Japanese grammar resources only refer to **八**品詞, or _eight_ parts of
-  speech. The diagram above also includes two additional types for
-  auxiliary/partial words.
-</Admonition>
-
-The ten parts of speech are broken into three major categories as shown in the
-diagram below:
+- [<ruby>助動詞<rp>(</rp><rt>じょどうし</rt><rp>)</rp></ruby> (auxiliary verbs)](grammar/4-jodoushi)
 
 {/* prettier-ignore */}
-1.  <strong><ruby>用言<rp>(</rp><rt>ようげん</rt><rp>)</rp></ruby></strong> are
-    the most important category. Grammarians call these
-    "inflectable" or "declinable" words that are used in the predicate. Honestly, the Japanese
-    characters are easier to understand: 用言 means "use words" or "utilization
-    words". They _do_ things.
-
-2.  **Non-inflectable words**, or freestanding words that _aren't_ 用言.
-
-3.  **Auxiliary or attached words-suffixes**
-
-We will describe each of these categories in turn.
-
-### The parts-of-speech taxonomy
-
-<Figure caption="Parts of speech">
-  ![Parts of speech diagram](/images/parts-of-speech-translated.png)
-</Figure>
-
-### 用言: predicate words
-
-Japanese has _three_ parts of speech in the 用言 category:
+- [<ruby>助詞<rp>(</rp><rt>じょし</rt><rp>)</rp></ruby> (particles)](grammar/5-joshi)
 
 {/* prettier-ignore */}
-- <strong><ruby>動詞<rp>(</rp><rt>どうし</rt><rp>)</rp></ruby></strong> (verbs)
+- [<ruby>語<rp>(</rp><rt>ご</rt><rp>)</rp></ruby>の<ruby>識別<rp>(</rp><rt>しきべつ</rt><rp>)</rp></ruby> (identifying words with multiple usages)](grammar/6-special)
+
+- [Sentence construction](j-grammar/construction)
 
 {/* prettier-ignore */}
-- <strong><ruby>形容詞<rp>(</rp><rt>けいようし</rt><rp>)</rp></ruby></strong>
-      (so-called "い-adjectives", or just "adjectives")
-
-{/* prettier-ignore */}
-- <strong><ruby>形容動詞<rp>(</rp><rt>けいようどうし</rt><rp>)</rp></ruby></strong> 
-      (so-called "な-adjectives", or "nominalizing adjectives")
-
-Dictionaries call 用言 called "inflectable" or "declinable" words. Non-grammarians
-like the author don't understand jargon like "inflectable" or "declinable".
-
-It's easier to understand what 用言 actually _do_.
-
-These three word-types all _function_ like verbs (though technically, only 動詞
-are _actually_ verbs). They are the part of a predicate that explain _what's happening_.
-
-English tends to focus on the _who_ and _what_ within a sentence, while
-Japanese tends to focus on the _action_ or _state._
-
-English is often described as an "SVO" grammar (subject, verb, object in that
-order). For example, the sentence: "I eat it" contains the subject "I", then the
-verb "eat", and finally the object "it". We tend to focus on the first word of
-that sentence: "I".
-
-Japanese is often described as "SOV" because the verb comes at the end. They
-tend to focus on the last word of a sentence, the verb.
-
-Japanse is perhaps better considered an "SV" language, or even just a "V" language! In
-Japanese, the exact same thought ("I eat it") might be expressed as:
-
-> 「食べる」
-
-This is still a complete sentence, even though it's only a single word!
-
-The subject "I" and object "it" are _implied._ Japanese grammar rules allow
-them to be omitted since they aren't necessary for understanding.
-
-Imagine offering food to a hungry Tarzan. If he replied with an enthusiastic
-"Eat!" (or <span style="white-space: nowrap;">「食べる！」</span> in Japanese), would you have any difficulty understanding that he will eat the
-food you were offering?
-
-English grammar explicitly requires words that, strictly speaking, aren't
-necessary.
-
-The words "I" and "it" would be _unnecessary_ for comprehension. The verb
-"eat" communicates all we need to know, but English grammar rules pretty
-much _mandate_ that we provide the unnecessary words (else we sound like
-Tarzan).
-
-Japanese doesn't work that way! (Which makes one wonder how Tarzan-speech is
-represented in Japanese manga.)
-
-Japanese is a _denser_ language. It's more efficient because it allows you to
-omit unneccesary pronouns like "I" and "it".
-
-<Admonition title="Note">
-  _用言 are the most important parts of a Japanese sentence._ Since they come at
-  the _end_ of sentences, it's not much of an overstatement to say that Japanese
-  is sort of read from the end of a sentence _backwards_.
-</Admonition>
-
-### 体言 and other "freestanding" types
-
-{/* prettier-ignore */}
-<ruby>体言<rp>(</rp><rt>たいげん </rt><rp>)</rp></ruby> literally means "subject/body" words.
-
-体言 are "substantive" words that can become the 主語 (subject) of a sentence.
-
-体言 are always 名詞 (nouns) and are the most important word types in this category.
-
-In addition, however, this category also includes four more word types that
-_can't_ become a subject. The other types break down into two more
-categories:
-
-1.  Modifiers/qualifiers and conjoiners
-
-    a. 用言 modifers/qualifiers: <strong><ruby>副詞<rp>(</rp><rt>ふくし</rt><rp>)</rp></ruby></strong> (adverbs)
-
-    b. 体言 modifiers/qualifiers: <strong><ruby>連体詞<rp>(</rp><rt>れんたいし</rt><rp>)</rp></ruby></strong> ("definite articles")
-
-    c. Conjoiners: <strong><ruby>接続詞<rp>(</rp><rt>せつぞくし</rt><rp>)</rp></ruby></strong> ("conjunctives")
-
-2.  Words that _don't_ modify/qualify or conjoin: <strong><ruby>感動詞<rp>(</rp><rt>かんどうし</rt><rp>)</rp></ruby></strong> (interjections).
-
-### Helper word-suffixes
-
-These aren't standalone words, but things that attach as suffixes to other
-words.
-
-There are two types:
-
-{/* prettier-ignore */}
-1. <strong><ruby>助動詞<rp>(</rp><rt>じょどうし</rt><rp>)</rp></ruby></strong> (auxiliary verbs)
-
-{/* prettier-ignore */}
-2. <strong><ruby>助詞<rp>(</rp><rt>じょし</rt><rp>)</rp></ruby></strong> (particles)
-
-## Summary
-
-The most important parts-of-speech categories are 用言 and 体言:
-
-- **体言** literally means "object words" or "body words". They are _always_ 名詞 or
-  things that have been "nominalized" to act like nouns.
-
-- **用言** literally means "use words". They includes _three_ different parts of
-  speech, not only 動詞 (verbs), but 形容詞 and 形容動詞 as well.
-
-<Admonition title="Important">
-**体言** form the <ruby>主語<rp>(</rp><rt>しゅご </rt><rp>)</rp></ruby>
-(subject) of a sentence. They are the "doers".
-
-**用言** form the <ruby>述語<rp>(</rp><rt>じゅつご</rt><rp>)</rp></ruby>
-(predicate). They inform "what is being done".
-
-</Admonition>
-
-All of these parts of speech will be explained in more detail on subsequent
-pages.
+- [<ruby>敬語<rp>(</rp><rt>けい</rt><rp>)</rp></ruby> (honorific language)](j-grammar/keigo)
