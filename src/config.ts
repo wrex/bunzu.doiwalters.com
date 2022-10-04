@@ -58,7 +58,11 @@ export const SIDEBAR: Sidebar = {
       { text: "1. Foundations", link: "en/grammar/1-foundations" },
       { text: "2. 用言 (predicate words)", link: "en/grammar/2-yougen" },
       { text: "3. 体言 and other", link: "en/grammar/3-non-yougen" },
-      { text: "文節 (clauses)", link: "en/bunsetsu" },
+      { text: "4. 助動詞 (aux-verbs)", link: "en/grammar/4-jodoushi" },
+      { text: "5. 助詞 (particles)", link: "en/grammar/5-joshi" },
+      { text: "6. 語の識別 (variants)", link: "en/grammar/6-special" },
+      { text: "7. 文 Construction", link: "en/grammar/7-construction" },
+      { text: "8. 敬語 (honorifics)", link: "en/grammar/8-keigo" },
     ],
     Diagramming: [
       { text: "Basics", link: "en/basics" },
