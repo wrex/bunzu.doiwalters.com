@@ -6,7 +6,7 @@
 <style>
   dl {
     display: flex;
-    margin-inline: 2em;
+    /* margin-inline: 1em; */
     flex-flow: row wrap;
     align-items: stretch;
     border: solid var(--theme-code-inline-bg);
