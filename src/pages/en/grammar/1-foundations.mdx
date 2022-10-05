@@ -6,22 +6,40 @@ layout: ../../../layouts/MainLayout.astro
 
 import Admonition from "../../../components/Admonition.svelte";
 import Figure from "../../../components/Figure.svelte";
+import Definition from "../../../components/Definition.svelte";
 
 ## Units of composition
 
 These are the basic units or divisions of Japanese writing, from largest to
 smallest:
 
-- **{文章}^(ぶんしょう)** Means writing in general (an article, composition, essay, or,
-  an individual _sentence_.)
+<Definition>
+  <span slot="term">{文章}^(ぶんしょう)</span>
+  <span>
+    Writing in general (an article, composition, essay, or, an individual
+    _sentence_.)
+  </span>
+</Definition>
 
-- **{段落}^(だんらく)** A paragraph. Literally, "falling rows" of text.
+<Definition>
+  <span slot="term">{段落}^(だんらく)</span>
+  <span>A paragraph. Literally, "falling rows" of text.</span>
+</Definition>
 
-- **{文}^(ぶん)** A sentence (that can be delimited with a period.)
+<Definition>
+  <span slot="term">{文}^(ぶん)</span>
+  <span>A sentence (something that can be delimited with a period.)</span>
+</Definition>
 
-- **{文節}^(ぶんせつ)** An individual clause or phrase within a sentence.
+<Definition>
+  <span slot="term">{文節}^(ぶんせつ)</span>
+  <span>An individual clause or phrase within a sentence.</span>
+</Definition>
 
-- **{単語}^(たんご)** An individual word.
+<Definition>
+  <span slot="term">{単語}^(たんご)</span>
+  <span>An individual word.</span>
+</Definition>
 
 We are only concerned with 文, 文節, and 単語 (sentences, clauses/phrases, and
 words). In particular, identifying the "core" 文節 in a sentence is the most
