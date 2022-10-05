@@ -32,4 +32,8 @@
     align-items: center;
   }
 
+  dd :global(p) {
+    margin-top: 1.25em;
+  }
+
 </style>

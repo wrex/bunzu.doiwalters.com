@@ -93,12 +93,13 @@ p {
   line-height: 1.85em;
 }
 
-.content ul {
+.content :is(ul, ol) {
+  margin-top: 1.1em;
   line-height: 1.1em;
 }
 
 p,
-.content ul {
+.content :is(ul, ol) {
   color: var(--theme-text-light);
 }
 
