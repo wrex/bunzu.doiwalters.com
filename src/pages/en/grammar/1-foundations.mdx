@@ -13,32 +13,53 @@ import Definition from "../../../components/Definition.svelte";
 These are the basic units or divisions of Japanese writing, from largest to
 smallest:
 
+{/* prettier-ignore */}
 <Definition>
   <span slot="term">{文章}^(ぶんしょう)</span>
-  <span>
-    Writing in general (an article, composition, essay, or, an individual
-    _sentence_.)
-  </span>
+  <div>
+    #### Writing in general
+
+    An article, composition, essay, or, an individual _sentence._
+
+  </div>
 </Definition>
 
+{/* prettier-ignore */}
 <Definition>
   <span slot="term">{段落}^(だんらく)</span>
-  <span>A paragraph. Literally, "falling rows" of text.</span>
+  <div>
+    #### A paragraph 
+    
+    Literally, "falling columns" of text.
+  </div>
 </Definition>
 
+{/* prettier-ignore */}
 <Definition>
   <span slot="term">{文}^(ぶん)</span>
-  <span>A sentence (something that can be delimited with a period.)</span>
+  <div>
+    #### A sentence 
+    
+    Something that can be delimited with a period.
+  </div>
 </Definition>
 
+{/* prettier-ignore */}
 <Definition>
   <span slot="term">{文節}^(ぶんせつ)</span>
-  <span>An individual clause or phrase within a sentence.</span>
+  <div>
+    #### A clause 
+    
+    An individual clause or phrase within a sentence.
+  </div>
 </Definition>
 
+{/* prettier-ignore */}
 <Definition>
   <span slot="term">{単語}^(たんご)</span>
-  <span>An individual word.</span>
+  <div>
+    #### An individual word.
+  </div>
 </Definition>
 
 We are only concerned with 文, 文節, and 単語 (sentences, clauses/phrases, and
@@ -62,14 +83,30 @@ have one, but complex sentences might have many.
 
 Every 文節 contains two parts:
 
+{/* prettier-ignore */}
 <Definition>
   <span slot="term">{主語}^(しゅご)</span>
-  <span>Subject</span>
-</Definition>
+  <div>
+    #### Subject
 
+    This is the "master" of a clause. It's the _doer_ in a clause (or the
+    "be-er" in a clause that describes existence, nature or state). The 主語 is
+    _not_ always explicitly present, it's often implied. (There's always a
+    _logical_ subject, but it isn't always explicitly stated.)
+
+  </div> </Definition>
+
+{/* prettier-ignore */}
 <Definition>
   <span slot="term">{述語}^(じゅつご)</span>
-  <span>Predicate</span>
+  <div>
+    #### Predicate
+
+    The predicate in a clause describes _what's happening_. It expresses an
+    action, existence, or nature/state. The 述語 will _always_ be at least
+    partially explicitly stated in _every_ clause.
+
+  </div>
 </Definition>
 
 述語 in particular are the most critical part of any Japanese sentence. You can
@@ -85,34 +122,42 @@ might be implied, but the 述語 will **always** be explicitly present.
 
 These two parts form the framework of _every_ clause.
 
-### Other parts
+### Subsidiary parts
 
-The remaining words in a clause fall into one of the following categories:
+The remaining sub-parts of a clause fall into one of the following three categories:
 
+{/* prettier-ignore */}
 <Definition>
   <span slot="term">{修飾語}^(しゅうしょくご)</span>
   <div>
-    Modifiers: words that modify or qualify other parts of the clause.
-
+    #### Modifiers 
+    
+    Words that modify or qualify other parts of the clause.
+    
     - 「**ゆっくり**歩く」("_slowly_ walk")
-
   </div>
 </Definition>
 
+{/* prettier-ignore */}
 <Definition>
   <span slot="term">{接続語}^(せつぞくご)</span>
   <div>
-    Connectors: words that connect distinct clauses.
+    #### Conjunctions 
+    
+    Words that connect distinct clauses or clause-parts.
 
     - 「**安いのに**、おいしい」 ("_it's cheap, but_ it's delicious").
 
   </div>
 </Definition>
 
+{/* prettier-ignore */}
 <Definition>
   <span slot="term">{独立語}^(どくりつご)</span>
   <div>
-    Independent words, interjections.
+    #### Interjections
+
+    Independent words.
 
     - 「**さあ**、やろう」 ("_hey,_ let's do it")
 
@@ -121,26 +166,36 @@ The remaining words in a clause fall into one of the following categories:
 
 ## Parts of speech
 
-{/* prettier-ignore */}
-If 文節 are the "molecules" of Japanese, then <strong><ruby>品詞<rp>(</rp><rt>ひんし</rt><rp>)</rp></ruby></strong> (parts of speech) are the atoms.
+The Japanese words for "parts of speech" is {品詞}^(ひんし).
 
-That's not a perfect analogy, though. The character 詞 means "a part of speech."
-It's used to indicate a grammatical _type_ or _function,_ and doesn't refer to
-individual words themselves. The characters 言 or 語 refer to groupings or
-_instances_ of words, while 詞 indicates parts-of-speech (the _type_ of a group
-of words) specifically.
+The character 詞 means "a part of speech." It's used to indicate a grammatical
+_type_ or _function,_ and doesn't refer to individual words or categories of
+words themselves.
+
+The characters 言 or 語 refer to _instances_ or groupings of words, while 詞
+indicates parts-of-speech (the _type_ of a group of words) specifically.
 
 Most of us are familiar with the _English_ parts-of-speech called _nouns_ and _verbs._
 Unsurprisingly, Japanese has both of these as well, but the Japanese names are:
 
+{/* prettier-ignore */}
 <Definition>
   <span slot="term">{名詞}^(めいし)</span>
-  <span>Noun. (Literally: a "named part of speech".)</span>
+  <div>
+    #### Noun 
+    
+    Literally: a "named part of speech".
+  </div>
 </Definition>
 
+{/* prettier-ignore */}
 <Definition>
   <span slot="term">{動詞}^(どうし)</span>
-  <span>Verb. (Literally: a "movement/change part of speech.)</span>
+  <div>
+    #### Verb 
+    
+    Literally: a "movement/change part of speech".
+  </div>
 </Definition>
 
 Including these, Japanese has ten total parts of speech, broken into three major
@@ -148,17 +203,17 @@ categories.
 
 ### The parts-of-speech taxonomy
 
-The following diagram provides an excellent synopsis for the remainder of this
-section. Refer back to it often:
+The following diagram provides an excellent synopsis for the ten parts of
+speech. Refer back to it often:
 
 <Figure caption="Parts of speech">
   ![Parts of speech diagram](/images/parts-of-speech-translated.png)
 </Figure>
 
 <Admonition title="Note">
-  Many Japanese grammar resources only refer to **八**品詞, or _eight_ parts of
-  speech. The diagram above also includes two additional types for auxiliary
-  word-suffixes that can't be used by themselves.
+  Many Japanese grammar resources only refer to _eight_ parts of speech
+  (**八**品詞). The diagram above also includes two additional types for
+  auxiliary verbs and particles that can't be used by themselves.
 </Admonition>
 
 The ten parts of speech are broken into three major categories:
@@ -292,19 +347,17 @@ represented in Japanese manga.)
 Japanese is a _denser_ language. It's more efficient because it allows you to
 omit unneccesary pronouns like "I" and "it".
 
-### 体言 and other "freestanding" types
+### 体言: subject words
 
-{/* prettier-ignore */}
-<ruby>体言<rp>(</rp><rt>たいげん </rt><rp>)</rp></ruby> literally means "subject/body" words.
+{体言}^(たいげん) literally means "body" or "subject" words.
 
-体言 are "substantive" words that can become the [主語 (subject)](/en/grammar/7-construction#%E4%B8%BB%E8%AA%9E-subjects) of a sentence.
-
-体言 always have a grammatical type of [名詞](/en/grammar/3-non-yougen#%E5%90%8D%E8%A9%9E%E3%82%81%E3%81%84%E3%81%97-nouns) (nouns) and are the next most important
-category of words after 用言.
+体言 are "substantive" words that can become the [主語
+(subject)](/en/grammar/7-construction#%E4%B8%BB%E8%AA%9E-subjects) of a
+sentence. They are "things" rather than actions/existence/nature/state.
 
 Note that 体言 are underlined in red in the [parts of speech diagram](/en/grammar/1-foundations#the-parts-of-speech-taxonomy) above.
 
-There are five word types in this category:
+There is only one grammatical type for 体言:
 
 <Definition>
   <span slot="term">[{名詞}^(めいし)](/en/grammar/3-non-yougen#%E5%90%8D%E8%A9%9E%E3%82%81%E3%81%84%E3%81%97-nouns)</span>
@@ -318,6 +371,10 @@ There are five word types in this category:
 
   </div>
 </Definition>
+
+### Other grammatical types
+
+There are four remaining grammatical types that are neither 用言 nor 体言:
 
 <Definition>
   <span slot="term">[{副詞}^(ふくし)](/en/grammar/3-non-yougen#%E5%89%AF%E8%A9%9E%E3%81%B5%E3%81%8F%E3%81%97-adverbs)</span>
@@ -408,70 +465,89 @@ There are two types:
   </div>
 </Definition>
 
-## 指示語 (pointing words)
+## Other word categories
+
+There are three more categories of words that we've not described so far:
 
 {/* prettier-ignore */}
-**<ruby>指示語<rp>(</rp><rt>しじご</rt><rp>)</rp></ruby>** or "pointing" words are
-also known as こそあど language.
+<Definition>
+  <span slot="term">{指示語}^(しじご)</span>
+  <div>
+    #### Pointing words
 
-There is no good English equivalent to describe these because they can function
-as any of several different grammatical types: 名詞 (nouns), 連体詞 (pre-noun adjectives),
-副詞 (adverbs), or 形容動詞 (な "is-verbs").
+    These are also known as こそあど language.  There is no good English equivalent
+    to describe these because they can function as any of several different
+    grammatical types: 名詞 (nouns), 連体詞 (pre-noun adjectives), 副詞 (adverbs), or
+    形容動詞 (だ "is-verbs").
 
-Things close to the speaker use the こ forms: ここ、これ、こちら.
+    Things close to the speaker use the こ forms: ここ、これ、こちら.
 
-Things near the listener use the そ forms: そこ、それ、そちら.
+    Things near the listener use the そ forms: そこ、それ、そちら.
 
-Things far from both the speaker and listener use the あ forms: あそこ、あれ、あ
-ちら.
+    Things far from both the speaker and listener use the あ forms: あそこ、あれ、あ
+    ちら.
 
-Undecided/unsettled things use the ど form: どこ、どれ、どちら.
+    Undecided/unsettled things use the ど form: どこ、どれ、どちら.
 
-## 複合語 (compound words)
+  </div>
+</Definition>
 
 {/* prettier-ignore */}
-<ruby>複合語<rp>(</rp><rt>ふくごうご</rt><rp>)</rp></ruby> are single words
-formed with two or more other words. They can be nouns, verbs, or い "is-verbs":
+<Definition>
+  <span slot="term">{複合語}^(ふくごうご)</span>
+  <div>
+    #### Compound words
 
-- 複合名詞, e.g. 春＋風 → 春風 (a spring breeze)
+    These are single words
+    formed with two or more other words. They can be nouns, verbs, or い "is-verbs":
 
-- 複合動詞, e.g. 旅＋立つ → 旅立つ (beginning a trip)
+    - 複合名詞, e.g. 春＋風 → {春風}^(しゅんぷう) (a spring-breeze)
 
-- 複合形容詞, e.g. 心＋細い → 心細い (is-anxious)
+    - 複合動詞, e.g. 旅＋立つ → {旅立つ}^(たびだつ) (beginning-a-trip)
 
-Regardless of form, these are single words. They should never be broken apart in
-a diagram. There is no modifying going on, they are individual compound-words,
-not a modifier plus another word.
+    - 複合形容詞, e.g. 心＋細い → {心細い}^(こころぼそい) (is-anxious)
 
-## 派生語 (derived words)
+    Regardless of form, these are _single_ words in Japanese. They should never
+    be broken apart in a diagram. There aren't any separate modifiers: they are
+    individual compound-words, not a modifier plus another word.
 
-There are two categories of derived words, prefixed words and suffixed words:
+  </div>
+</Definition>
 
-- 接頭語, e.g. お米　とり調べる　か弱い
+{/* prettier-ignore */}
+<Definition>
+  <span slot="term">{派生語}^(はせいご)</span>
+  <div>
+    #### Derived words
 
-- 接尾語, e.g. ぼくたち　春めく　子供らしい
+    There are two sub-categories of derived words, prefixed words and suffixed words:
 
-Like 複合語, 派生語 can be nouns, verbs, or い "is-verbs". They are also
-individual words that should never be broken apart in a diagram.
+    - {接頭語}^(せっとうご) (prefixed words), e.g. お{米}^(こめ)　とり{調}^(しら)べる　か{弱}^(よわ)い
+
+    - {接尾語}^(せつびご) (suffixed words), e.g. ぼくたち　{春}^(はる)めく　{子供}^(こども)らしい
+
+    Like 複合語, 派生語 can be nouns, verbs, or い "is-verbs". They are also
+    individual words that should never be broken apart in a diagram.
+
+  </div>
+</Definition>
 
 ## Summary
 
-The most important parts-of-speech categories are 用言 and 体言:
+The most important categories of words are 用言 and 体言:
 
-- **体言** literally means "object words" or "body words". They are _always_ 名詞 or
-  things that have been "nominalized" to act like nouns.
+- **用言** literally means "use words". They include _three_ different parts of
+  speech: not only 動詞 (verbs), but "is-verbs" like 形容詞 and 形容動詞 as well.
 
-- **用言** literally means "use words". They includes _three_ different parts of
-  speech, not only 動詞 (verbs), but 形容詞 and 形容動詞 as well.
+- **体言** literally means "subject words" or "body words". They are _always_ 名 詞
+  (nouns) or things that have been "nominalized" to act like nouns.
 
-<Admonition title="Important">
-**体言** form the <ruby>主語<rp>(</rp><rt>しゅご </rt><rp>)</rp></ruby>
-(subject) of a sentence. They are the "doers".
+**Every** clause has a 主語 (subject) and a 述語 (predicate).
 
-**用言** form the <ruby>述語<rp>(</rp><rt>じゅつご</rt><rp>)</rp></ruby>
-(predicate). They inform "what is being done".
+**品詞** are parts of speech. They are grammatical types rather than individual
+word instances or groupings/categories of words. There are eight "freestanding"
+parts of speech (we will describe rules for diagramming each elsewhere on this
+site).
 
-</Admonition>
-
-All of these parts of speech will be explained in more detail on subsequent
-pages.
+Things like compound words and derived words should _not_ be broken apart in a
+sentence diagram. They should be considered as individual units.
