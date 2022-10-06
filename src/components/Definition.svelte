@@ -14,7 +14,7 @@
   }
   dt {
     font-size: x-large;
-    flex-basis: 20%;
+    flex-basis: 25%;
     padding: 1em;
     background: var(--theme-code-inline-bg);
     text-align: right;
@@ -24,7 +24,7 @@
     justify-content: flex-end;
   }
   dd {
-    flex-basis: 70%;
+    flex-basis: 75%;
     flex-grow: 1;
     margin: 0;
     padding: 1em;
