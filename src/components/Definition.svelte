@@ -13,6 +13,7 @@
     border-width: 1px 1px 0 0;
   }
   dt {
+    font-size: x-large;
     flex-basis: 20%;
     padding: 1em;
     background: var(--theme-code-inline-bg);
