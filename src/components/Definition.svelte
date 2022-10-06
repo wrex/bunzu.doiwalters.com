@@ -37,4 +37,8 @@
     margin-top: 1.25em;
   }
 
+  dd :global(:is(h1,h2,h3,h4)) {
+    margin: 0;
+  }
+
 </style>
