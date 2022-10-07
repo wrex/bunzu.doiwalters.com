@@ -6,6 +6,7 @@ layout: ../../layouts/MainLayout.astro
 
 import Admonition from "../../components/Admonition.svelte";
 import Figure from "../../components/Figure.svelte";
+import Diagram from "../../components/Diagram.svelte";
 
 Finally we can get to actually creating some diagrams!
 
@@ -482,7 +483,12 @@ Notes:
 
 Here's an even more interesting example of using a verb as a modifier,
 
-> 「{早}^(はや)く{起}^(お)きるように{努力}^(どりょく)する」
+<Diagram filename="hayakuokiru.svg">
+  <p slot="original">
+    {早}^(はや)く{起}^(お)きるように{努力}^(どりょく)する
+  </p>
+  <p slot="translation">[@] endeavors to early-wake</p>
+</Diagram>
 
 We'd translate this into English as something like "I endeavor to wake early",
 but structurally that is _very_ different than the literal Japanese. This
@@ -491,11 +497,6 @@ English translation is a compound sentence that uses "wake" as a verb.
 In the Japanese sentence, 起きる (wake) is a _modifier_, what we'd call an
 "adverb" in English, affecting 努力する ("to endeavor") which itself is a
 動詞 (a verb, albeit a special kind of "suru" verb).
-
-{/* prettier-ignore */}
-<Figure figId="hayakuokiru" caption="早く起きるように努力する">
-  ![Figure for "I endeavor to wake early"](/images/hayakuokiru.png)
-</Figure>
 
 Notes:
 
