@@ -386,7 +386,8 @@ h2.heading {
 
 /* How do I target this?!!! */
 /* This doesn't work */
-.content > section.footnote > * + * {
-  font-size: small !important;
-  font-style: italic !important;
+.content section.footnotes {
+  border-top: 1px solid var(--theme-text);
+  font-size: small;
+  font-style: italic;
 }
