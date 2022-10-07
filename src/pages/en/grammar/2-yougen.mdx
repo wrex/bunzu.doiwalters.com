@@ -1,51 +1,111 @@
 ---
-title: 用言 (predicate words)
+title: 用言 ("use" words)
 description: More details about 用言
 layout: ../../../layouts/MainLayout.astro
 ---
 
 import Admonition from "../../../components/Admonition.svelte";
+import Figure from "../../../components/Figure.svelte";
+import Definition from "../../../components/Definition.svelte";
 
-## Three types of <ruby>用言<rp>(</rp><rt>ようげん</rt><rp>)</rp></ruby>
+{/* prettier-ignore */}
+<Definition>
+  <span slot="term">{用言}^(ようげん)</span>
+  <div>
+    #### "Use" words
 
-As described previously, most J-E dictionaries call 用言 "inflectable" or
-"declinable" words, but most people don't really know what those words mean,
-either.
+    Words that describe what's going on with the grammatical subject (the
+    "doer") in a sentence. These words form the _predicate_ and describe the
+    action, existence, nature, or state of the subject (what the subject is
+    _doing_). The character 用 means how something is used or serviced.
 
-A better definition, in the author's opinion, for 用言 might be:
+  </div>
+</Definition>
 
-> **用言**: Words that describe what's going on with the _subject_ in a sentence. These
-> words form the _predicate_ of a sentence and describe the action, existence,
-> nature, or state of the _subject_. The character 用 means how something is
-> used or serviced.
+{用言}^(ようげん) are by far the most important part of Japanese grammar.
+Literally everything else might be omitted in a sentence, but Japanese clauses
+_always_ include an explicit 述語 (predicate) containing at least one 用言.
 
-Japanese is a predicate-centric language. The words at the end of a clause
-(the predicate) tend to be the most important.
+There are three types of 用言: {動詞}^(どうし), {形容詞}^(けいようし), and
+{形容動詞}^(けいようどうし). We will explore each in turn.
 
-As shown at the top of the parts-of-speech diagram, there are three types of
-"inflectable," standalone words that can become predicates all on their own
-(in Japanese: 単独で述語となるもの).
+## {動詞}^(どうし) (verbs)
 
-<Admonition title="Note">
-  Remember: All three types of 用言 can become a predicate all on their own,
-  without any other words or modifiers.
+### Nature/character
+
+動詞 have three identifying characteristics:
+
+1. They _conjugate_ or _inflect_.
+
+   Examples: [読む](/en/basics#yomu)・読まない・読みます・読めば・...
+
+2. They are freestanding words that can form a 述語 (predicate).
+
+   Examples: [本を **{読む}^(述語)**](/en/basics#honwoyomu).
+
+3. They end with kana from the う column in the 50-音 kana table.
+
+   Examples: 思う・聞く・話す・立つ.
+
+### Grammatical function
+
+動詞 can have four different functions within a sentence:
+
+1. They can form the {述語}^(じゅつご) (predicate):
+
+   Example:
+
+   - [花が **{咲いた}^(述語)**](/en/basics#hanagasaita)
+
+2. They can become {修飾語}^(しゅうしょくご) (modifiers):
+
+   Examples:
+
+   - **{歩く}^(修飾語)** 習慣を身につける
+
+     Translation: "[I] acquire [the] **walking** habit"
+
+   - 早く **{起きるように}^(修飾語)** 努力する
+
+     Translation: "[I] endeavor to wake earlier"
+
+     Transliteration: "To earlier-<strong>wake</strong>-endeavor"
+
+3. They can become the {主語}^(しゅご) (subject) by using particles like 「の
+   が・のは・のも」:
+
+   Example:
+
+   - 遠くに **{見えるのが}^(主語)** 富士山だ
+
+     Translation: "You can see Mount Fuji in the distance"
+
+     Transliteration: "**Seen-thing** in the distance is-Mount-Fuji"
+
+4. They can become {接続語}^(せつぞくご) (conjunctions) connecting clauses.
+
+   Example:
+
+   - いくら **{待っても}^(接続語)** 来ない
+
+     Translation: "[He/she/it] won't come no matter how long you wait"
+
+     Transliteration "[you] indeterminate-**wait-even**, [he/she/it] won't come"
+
+Japanese is a predicate-centric language. The words at the end of a clause tend
+to be the most important because that's where the predicate normally resides.
+
+As shown at the top of the [parts-of-speech
+diagram](/en/grammar/1-foundations#fig_parts-of-speech), there are three parts
+of speech that can be "inflected." These are standalone words that can become
+predicates all on their own (in Japanese: {単独}^(たんどく)で{述語}^(じゅつご)となるもの).
+
+<Admonition title="Important">
+  Remember: There are _three_ types of 用言. All three can become a predicate on
+  their own, without any other words or modifiers.
 </Admonition>
 
-{/* prettier-ignore */}
-### <strong><ruby>動詞<rp>(</rp><rt>どうし</rt><rp>)</rp></ruby></strong>
-
-動詞 indicate _action_ or _existence._
-
-The plain or dictionary forms of these verbs always end with the う sound (〜う,
-〜く, 〜す, 〜る, _etc._).
-
-Examples:
-
-{/* prettier-ignore */}
-- <ruby>笑<rp>(</rp><rt>わら</rt><rp>)</rp></ruby>う (to laugh)
-
-{/* prettier-ignore */}
-- <ruby>動<rp>(</rp><rt>うご</rt><rp>)</rp></ruby>く (to move).
+### 動詞 (verbs)
 
 There are only three types of 動詞 in Japanese:
 

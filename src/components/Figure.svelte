@@ -32,6 +32,7 @@
 <style>
   figure {
     /* font-size: small; */
+    margin-block: 1em;
     border: thin var(--theme-text) solid;
     padding: 0.5em;
   }

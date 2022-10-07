@@ -62,8 +62,8 @@
     "description": "A Figure component",
     "body": [
       "$BLOCK_COMMENT_START prettier-ignore $BLOCK_COMMENT_END",
-      "<Figure caption=\"${1:CAPTION}\">",
-      "  ${2:FIGURE}",
+      "<Figure figId=\"${1:ID}\" caption=\"${2:CAPTION}\">",
+      "  ${3:FIGURE}",
       "</Figure>"
     ]
   }

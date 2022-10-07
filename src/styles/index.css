@@ -383,3 +383,10 @@ h2.heading {
 :target {
   scroll-margin: calc(var(--theme-sidebar-offset, 5rem) + 2rem) 0 2rem;
 }
+
+/* How do I target this?!!! */
+/* This doesn't work */
+.content > section.footnote > * + * {
+  font-size: small !important;
+  font-style: italic !important;
+}
