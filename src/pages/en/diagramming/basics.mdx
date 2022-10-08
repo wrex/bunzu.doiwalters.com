@@ -1,12 +1,12 @@
 ---
 title: Diagram basics
 description: How to create Japanese sentence diagrams
-layout: ../../layouts/MainLayout.astro
+layout: ../../../layouts/MainLayout.astro
 ---
 
-import Admonition from "../../components/Admonition.svelte";
-import Figure from "../../components/Figure.svelte";
-import Diagram from "../../components/Diagram.svelte";
+import Admonition from "../../../components/Admonition.svelte";
+import Figure from "../../../components/Figure.svelte";
+import Diagram from "../../../components/Diagram.svelte";
 
 Finally we can get to actually creating some diagrams!
 
@@ -14,27 +14,23 @@ Diagrams are intentionally very simple. You don't need any fancy software to
 create them. The intent is to be able to create them with nothing more than a
 pencil and paper (or chalk and chalkboard).
 
-Step one couldn't be any easier:
+## Write the original sentence
 
-<Admonition title="Step 1: Write down the original sentence">
-
-Simply write the original sentence you plan to diagram at the top of the page.
+The first step couldn't be easier: Simply write the original sentence you plan
+to diagram at the top of the page.
 
 Optionally, you can also write an English _transliteration_ for the sentence
-immediately below the original. (More on this later.)
+immediately below the original.
 
-</Admonition>
+## Draw lines for clauses
 
-## The core {文節}^(ぶんせつ) (clause)
+Every sentence (in any language) has at least one clause (compound sentences
+might have multiple).
 
-Every sentence (in any language) has at least one clause (compound sentences might have multiple).
-
-Every 文節 (clause) has a 主語 (subject) and a 述語 (predicate). There can be
-many words (including complete clauses/phrases) that modify each of these, but
-at the core of the sentence there will always be a 体言 acting as the subject,
-and a 用言 acting as the predicate.
-
-<Admonition title="Step 2: Core clause Baseline & separator">
+Every {文節}^(ぶんせつ) (clause) has a {主語}^(しゅご) (subject) and a {述語}^(じゅつご)
+(predicate). There can be many words (including complete clauses/phrases) that
+modify each of these, but at the core of the sentence there will always be a {体言}^(たいげん)
+acting as the subject, and a {用言}^(ようげん) acting as the predicate.
 
 First draw a horizontal line. This will act as a baseline for the subject and
 predicate to rest on.
@@ -46,89 +42,96 @@ central.
 Then write the _core_ 主語 to the left of the separator, and the core 述語
 to the right.
 
-</Admonition>
-
 Let's start with an extremely simple example:
 
-> {花}^(はな)が{咲}^(さ)いた ([the] flower bloomed)
+<Diagram filename="hanagasaku.svg">
+  <p slot="original">
+    {花}^(はな)が{咲}^(さ)く
+  </p>
+  <p slot="translation">[The] flower blooms</p>
+</Diagram>
 
-There's obviously only one clause, and single words for both parts of that clause:
+In English, this means "The flower blooms". English wants the definite article
+"the" but there is no equivalent word in the original sentence, so we put it in
+square brackets to indicate that it was added.
 
-- The 主語 is the single word 花 (identified by the particle が). "I" is the master
+There's obviously only one clause, with single words for each part of that clause:
+
+- The 主語 is the single word 花 (identified by the particle が). 花 is the master
   doing the action.
 
-- The 述語 is the single verb 咲いた (the past tense of 咲く). The action was "bloomed".
-
-Here is how we'd diagram that sentence:
-
-<Figure figId="hanagasaita" caption="The flower bloomed">
-  ![diagram for 'I ate'](/images/hanagasaita.png)
-</Figure>
+- The 述語 is the single verb 咲く. The action is "blooms".
 
 There are a few things to notice:
 
 - If you ignore any lines or symbols and simply _read_ what's on the baseline, you get the
-  core clause 「花が咲いた」. (The core clause happens to be the entire sentence in this
-  example, but that won't usually be the case.)
+  core clause 「花が咲く」. (The core clause happens to be the entire sentence in this
+  example, but that obviously won't always be the case!)
 
 - The particle が is explicitly included with the 主語 since it's literally
   present in the original sentence (が identifies subjects).
 
-- This sentence doesn't use the plain or dictionary form of the 動詞　咲く, it
-  uses an inflection (咲いた, the past tense). We use an optional dot to separate the stem of the verb
-  from any 助動詞 (auxiliary verbs). The dot is optional and is a little
-  different usage from most Japanese dictionaries (which sometimes use the dot
-  to separate the kanji reading from the okurigana).
+### Other {用言}^(ようげん)
 
-- If the sentence was 私が食べる ("I eat"), we _wouldn't_ use a dot. The
-  predicate would just be 食べる (since that's what will be found in the dictionary).
+The 述語 (predicate) won't always be a 動詞 (verb). It could also be 形容詞
+(is-verb) or 形容動詞 (だ is-verb). Consider, for example, the sentences:
 
-### Other 用言 types
+<Diagram filename="watashiganemui.svg">
+  <p slot="original">
+    {私}^(わたし)が{眠}^(ねむ)い
+  </p>
+  <p slot="translation">I am-sleepy</p>
+</Diagram>
 
-The 述語 (predicate) won't always be a 動詞 (verb). It could also be 形容詞 or
-形容動詞. We might, for example have the sentences:
+<Diagram filename="karegashizukada.svg">
+  <p slot="original">
+    {彼}^(かれ)が{静}^(しず)かだ
+  </p>
+  <p slot="translation">He is-quiet</p>
+</Diagram>
 
-- 私が眠い (transliteration: "I am-sleepy")
+Note in particular that the predicate in that last example is 静かだ and _not_ just
+だ. English speakers might want to think of だ as a single-word verb like the
+English word "is", but だ on its own is _not_ a "freestanding" word. Neither is
+静か. The 用言 is 静かだ.
 
-- 彼が静かだ (transliteration: "He is-quiet")
+### _Transliteration_ not translation
 
-We expressly transliterate the 用言 at the end of the sentences into
-["is-verbs"](/en/yougen#is-verbs-not-adjectives) rather than "adjectives". We
-are doing word-for-word **transliteration** rather than semantic translation
-(English often requires us to reorder or add words to keep things
-understandable, but transliterating this way reenforces the idea that
-these _aren't_ adjectives, they are full predicates all on their own.)
+The English versions of the last two examples expressly transliterated the 用言
+into hyphenated ["is-verbs"](/en/grammar/2-yougen#is-verbs-not-adjectives) ("am-sleepy"
+and "is-quiet"). This is to emphasize the fact that these are individual 用言 and
+_not_ two separate words.
 
-The structure is identical (original sentences elided to save space):
+"Am-sleepy" in the first example corresponds exactly to the single word 眠い.
 
-<Figure figId="other-yougen" caption="Other 用言">
-  ![other 用言 diagrams](/images/ex2-other-yougen.png)
-</Figure>
+Similarly, 静かだ becomes the single word "is-quiet".
 
-Notes:
-
-- Since 形容詞 appear in the dictionary _with_ the い appended, we don't use a
-  dot (the い isn't a particle).
-
-- Since 形容動詞 _don't_ include the final だ in the dictionary, we use an optional dot
-  between the 形容動詞 and the 助動詞 (auxiliary verb) だ.
-
-- Note in particular that だ in that last example is part of the 形容動詞, but
-  if it followed a noun it would technically be 助動詞, an _auxiliary_ verb.
-  Here, it turns 静か into a 用言, but neither part is a verb, nor does either part function
-  alone. _Both_ parts _together_ become a 用言 and form the predicate.
+We attempt to show word-for-word **transliterations** rather than semantic translations.
+English often requires us to reorder or add words to keep things
+understandable, but transliterating this way reenforces the idea that these
+_aren't_ adjectives, they are full predicates all on their own.
 
 ### Polite forms
 
-So far we've used plain forms of the verbs. Using polite forms doesn't change much:
+So far we've used plain forms of the verbs. Using polite forms doesn't change
+much:
 
-<Figure figId="polite-forms" caption="Polite forms">
-  ![diagrams for polite forms](/images/ex3-polite-forms.png)
-</Figure>
+<Diagram filename="hanagasakimasu.svg">
+  <p slot="original">花が咲きます</p>
+  <p slot="translation">[The] flower blooms (polite)</p>
+</Diagram>
 
-Again we've left out the original sentences since they are obvious, and again we
-separate the dictionary forms with a dot. These are polite forms of 用言, but
-nothing has changed structurally.
+<Diagram filename="watashiganemuidesu.svg">
+  <p slot="original">私が眠いです</p>
+  <p slot="translation">I am-sleepy (polite)</p>
+</Diagram>
+
+<Diagram filename="karegashizukadesu.svg">
+  <p slot="original">彼が静かです</p>
+  <p slot="translation">He is-quiet(polite)</p>
+</Diagram>
+
+These are polite forms of 用言, but nothing has changed structurally.
 
 ## Implied parts
 
@@ -139,16 +142,17 @@ sentence will still make sense.
 ### Implied subjects
 
 If all that's given is a 用言, then the subject is implied. As discussed in the
-grammar section, [it's helpful to think of the zero pronoun filling in when the
+grammar section, [it's helpful to think of the zero pronoun "@" standing in when the
 subject is omitted](http://localhost:3000/en/bunsetsu#the-zero-pronoun).
 
 Say, for example, the sentence was simply 「読む」(a verb meaning "read"). It isn't
 explicit from the sentence who or what did the reading, so we use the zero
 pronoun to stand in for "he" or "she" or "it":
 
-<Figure figId="yomu" caption="The zero pronoun">
-  ![diagram with the zero pronoun](/images/yomu.png)
-</Figure>
+<Diagram filename="yomu.svg">
+  <p slot="original">読む</p>
+  <p slot="translation">[@] reads</p>
+</Diagram>
 
 Notes:
 
@@ -162,77 +166,60 @@ Notes:
 
 - This sentence does _not_ mean "I read", nor does it mean "she reads", nor "it
   reads". Without additional context we simply don't know who or what's
-  doing the reading, so we use &ldquo;@&rdquo; to fill in.
+  doing the reading, so we use &ldquo;@&rdquo; to fill in. Note that using the
+  zero pronoun this way ensures the diagram remains unchanged no matter the
+  context the sentence was used in.
 
 - As always, a clause _must_ have both a subject and a predicate, even if the
   subject is implied and not explicitly present.
 
-### Implying _predicates_
+### Bare 体言 (implied だ)
 
 As we also discussed
-[previously](http://localhost:3000/en/bunsetsu#missing-%E8%BF%B0%E8%AA%9E), one can
-create single-word sentences out of 体言 (basically nouns) or "adjectives".
+[previously](/en/grammar/bunsetsu#missing-%E8%BF%B0%E8%AA%9E), one can
+create single-word sentences out of 体言. Doing so implies a だ at the end.
 
-Diagramming the examples from that section:
+For example:
 
-<Figure figId="cow-quiet-cold" caption="Implied predicates">
-  ![Implied predicates](/images/ex5-cow-quiet-cold.png)
-</Figure>
+<Diagram filename="ushi.svg">
+  <p slot="original">牛</p>
+  <p slot="translation">[it] is-cow</p>
+</Diagram>
 
 Notes:
 
-- Despite all the extra stuff in brackets, these diagrams simply display three
+- Despite all the extra stuff in brackets, this is still a
   _one-word_ sentences. We put things in brackets expressly to make the implied
-  stuff _visible_. Structurally speaking, these implied parts are absolutely
-  parts of the sentences.
+  stuff _visible_. Structurally speaking, these implied parts are logically
+  part of the sentences, but they obviously aren't explicitly present.
 
-  - 「牛」(transliterated: "@ is-cow")
+- We still skip over everything in brackets when reading the clause along the
+  baseline. This clause reads just 「牛」.
 
-  - 「静か」(transliterated: "@ is-quiet")
+- Single words, no matter what part of speech, _must_ be interpreted as 用言 -- 牛
+  is part of the _predicate_, not the subject. This can seem odd to English speakers.
 
-  - 「寒い」 (transliterated: "@ is-cold")
-
-- The single words provided _must_ be interpreted as 用言 -- they form the
-  _predicate_, not the subject.
-
-- The zero object is the implied subject in all three sentences. There is no way to know
-  from the original sentences alone if the subjects are "I", "he", "she", or
+- The zero object is the implied subject. There is no way to know
+  from the original sentence alone if the subject is "I", "he", "she", or
   "it". The semantic meaning comes from context.
-
-- We _don't_ add an implied だ with 形容詞. The word 寒い is _already_ 用言. It
-  doesn't need だ to turn it into one.
 
 ## 修飾語 (Modifiers)
 
 Japanese has a wonderful system of [助詞 or
-particles](http://localhost:3000/en/taigen#%E5%8A%A9%E8%A9%9E%E3%81%98%E3%82%87%E3%81%97-particles)
+particles](/en/grammar/taigen#%E5%8A%A9%E8%A9%9E%E3%81%98%E3%82%87%E3%81%97-particles)
 that explicitly inform us of what different parts of a sentence are doing. They
 tell us if something is specifying a location, a starting point, an ending
 point, a means of doing something, etc.
 
-{/* prettier-ignore */}
-The Japanese word for such modifiers is <ruby>修飾語<rp>(</rp><rt>しゅうしょくご</rt><rp>)</rp></ruby>.
+The Japanese word for such modifiers is {修飾語}^(しゅうしょくご). They can
+modify any of the eight parts of speech (including other modifiers).
 
-{/* prettier-ignore */}
-The thing being modified is called <ruby>日修飾語<rp>(</rp>ひしゅうしょくご<rt></rt><rp>)</rp></ruby>.
+The thing being modified is called {日修飾語}^(ひしゅうしょくご).
 
 These modifiers don't actually change the meaning of the core clause, however.
 They just provide more, finer-grained information.
 
-<Admonition title="Step 3. Add any modifiers">
-  Most sentences will be more complex than just a simple 主語 and a simple 述語.
-
-Most will have various modifiers informing us of other things going on, or
-different qualifiers for the subject and predicate.
-
-Draw each modifier on a "hanger" hanging below the thing it's modifying. Place
-them from left to right in the same order they appear in the original
-sentence.
-
-If there are any explicit particles identifying a modifier, write them on the
-stem of the "hanger".
-
-</Admonition>
+We "hang" modifiers below the things they modify.
 
 ### Object modifiers
 
@@ -240,12 +227,14 @@ One particularly interesting modifier is identified by the particle を. It
 introduces a grammatical _object_, something the 述語 is acting on or with.
 
 None of the example sentences so far have involved an object, so let's add an
-one. Let's diagram "I read [a] _book_" (or, more
-accurately, &ldquo;@ read [a] book&rdquo; with an implied "I").
+one:
 
-<Figure figId="honwoyomu" caption="Objects">
-  ![Objects](/images/honwoyomu.png)
-</Figure>
+<Diagram filename="honwoyomu.svg">
+  <p slot="original">
+    {本}^(ほん)を{読}^(よ)む
+  </p>
+  <p slot="translation">[@] reads a book</p>
+</Diagram>
 
 Notes:
 
@@ -268,7 +257,14 @@ Notes:
   stem of the "hanger". This informs us what _type_ of modifying/qualifying is
   going on (sushi is the _grammatical object_ because of the を).
 
+- The "hangers" might look backwards to anyone familiar with English
+  (Reed-Kellog) sentence diagrams. Facing them to the left this way with the
+  particles on the stem keeps things much more readable.
+
 ### Don't add imaginary modifiers
+
+[This overlong section explains why it's okay to add imaginary subjects, but not
+okay to add imaginary objects.]
 
 [As we described
 earlier](/en/grammar-intro/#%E7%94%A8%E8%A8%80-predicate-words), English is an
@@ -280,14 +276,14 @@ Imagine this exchange between an English-speaking father and son:
 
 > Father: "Who ate the last cookie?"
 >
-> Son: "I ate it."
+> Son: "I ate **it**."
 
 Notice the word "it" at the end of the son's sentence.
 
-Adding that word would be natural and automatic. Given the context, the son
-would never reply with just the two words "I ate".[^1] He'd automatically add
-the word "it" without conscious thought. Yet the question of _who_ is fully
-answered with just "I ate" -- the object is irrelevant.
+Adding that word would be natural and automatic. Given the context, an
+English-speaking son would never reply with just the two words "I ate".[^1] He'd
+automatically add the word "it" without conscious thought. Yet the question of
+_who_ is fully answered with just "I ate" -- the object is irrelevant.
 
 [^1]:
     Yes, he might answer "I did" because "did" is an intransitive verb that
@@ -300,11 +296,15 @@ _automatically,_ unconsciously, add at least a pronoun as the object.
 
 _But idiomatic Japanese **often** omits the object!_
 
-In this exact same scenario, a Japanese son would reply,「私が食べた」or just 「食べた」.
+In this exact same scenario, a Japanese son might reply with:
+
+> 「私が食べた」
+
+Note that the object "it" is _not_ in the original sentence, but the English
+sounds weird without the word "it".
 
 In Japanese, it would actually sound a little weird (not _wrong_, but weird) to
-include the object. It would sound wordy and
-weirdly explicit for the son to say
+include the object. It would sound wordy and weirdly explicit for the son to say:
 
 > 「私があれを食べた」
 
@@ -316,9 +316,10 @@ when just
 
 > 「食べた」
 
-suffices. The first version would sound weird _even though it is **exactly**
+suffices. Adding 「あれを」or 「クーキーを」would sound weird _even though it is **exactly**
 equivalent to "I ate it"._ We already _know_ we're talking about a cookie, so
-why bother adding an object?[^2]
+why bother adding an object? Or even a _subject_? Since the son is talking,
+the father would know who did the eating![^2]
 
 [^2]:
     Japanese also mixes subjects and objects in ways that seem
@@ -345,76 +346,73 @@ why bother adding an object?[^2]
 
     - 「彼女がクーキーを食べる」"She eats cookie"
 
-How _should_ we diagram the son's one-word reply?
+How _should_ we diagram the son's reply 「私が食べた」?
 
-We _could_ theoretically diagram the son's reply as:
+English speakers might be tempted to do something like this:
 
+<Diagram filename="watashigaarewotabeta.svg">
+  <p slot="original">私が食べた</p>
+  <p slot="translation">Bad example -- **DON'T DO THIS**</p>
+</Diagram>
 <Figure caption='食べた as "I ate it" (BAD EXAMPLE!)'>
   ![食べた as "I ate it"](/images/ex8-I-ate-it.png)
 </Figure>
 
-But adding an entirely imaginary modifier when there really isn't an object in
-the original sentence is _not_ correct. For one thing, two zero pronouns in one
-clause is confusing (they probably don't refer to the same thing). For another,
-how do we know that's what they meant? They might have intended a purely
-intransitive sense of 食べた (like "I ate").
+But adding an entirely imaginary modifier and particle when there wasn't one in
+the original sentence is _incorrect._
 
 A diagram must _not_ invent things that might not have been intended. Sentence
 diagrams _must not change just because the surrounding context changes._ The
 identical diagram must apply whether the sentence is responding to "Who ate the
-last cookie?" or to "Did you eat?".
+last cookie?" or to "Did you eat?". No object would be implied in the latter case.
 
-The [original figure in the section on implied
-subjects](/en/basics#fig_the-zero-pronoun) shows the correct way to diagram this
-sentence. This sentence would still be transliterated as simply "[@] ate" or "[I]
-ate" since that is all that's in the original sentence. Even though it's not
-spoke out loud or written down, there _is_ a logical subject (the zero pronoun),
-but **there is no object in that sentence.**
+This sentence should be diagrammed as simply "I ate"
+since that is all that's in the original sentence.
 
 It's _English_ rules that make us want to add an explicit object, but we are
 diagramming Japanese sentences, so "objectless" sentences are perfectly
 acceptable and common even with transitive verbs.
 
-In other words: It's correct and necessary to add imaginary _subjects_ because
-every 文節 _must_ have a logical subject, but don't add imaginary _objects_ or
-other modifiers to a Japanese sentence diagram. Only diagram the modifiers that
-are actually present in the original sentence.
+Both Japanese and English clauses _always_ have subjects, but Japanese sentences
+especially omit objects quite often.
+
+It's correct and necessary to add imaginary _subjects_ because every 文節 _must_
+have a logical subject that we want to make visible, but don't add imaginary
+_objects_ or other modifiers to a Japanese sentence diagram. Only diagram the
+modifiers that are actually present in the original sentence.
 
 ### Other modifiers
 
 Modifiers can affect the subject as well as the predicate. They can even modify
-other modifiers.
+other modifiers:
 
-Let's take an example with lots of (albeit) modifiers:
-
-<Figure figId="white-dog-eating" caption="Several modifiers">
-  ![Several modifiers](/images/ex7-white-dog-eating.png)
-</Figure>
+<Diagram filename="shiroiinugaienonakadeshizukanitabeta.svg">
+  <p slot="original">白い犬が家の中で静かに食べた</p>
+  <p slot="translation">[The] white dog ate quietly inside the house</p>
+</Diagram>
 
 Notes:
 
-- The _core_ of this longer sentence is just 「犬が食べている」.
+- The _core_ of this longer sentence is just 「犬が食べてた」.
 
 - Modifiers hang below the things they modify in the same order as they appear
   in the original sentence. The sentence starts with 白い so it attaches to the left
   of the subject.
 
-  Note, however, that the explicit particles in Japanese _allow
-  modifiers to be moved around at will in a sentence,_ but in a diagram, they
-  always hang from the things they modify.
+  Explicit particles in Japanese _allow modifiers to be moved around at will in
+  a sentence,_ but in a diagram, they always hang from the things they modify.
 
-  The sentence 「白い犬が静かに家の中で食べている」has precisely the same
-  semantic meaning as the original, despite swapping the order of the middle
-  modifiers. The swapped modifiers would still hang below the 述語 since that's
-  what they modify (but we'd normally swap their order in the diagram as well
-  for clarity).
+  The sentence 「家の中で白い犬が静かに食べた」has precisely the same semantic meaning as the
+  original, and **would be diagrammed identically**, despite swapping the order of
+  things. The repositioned 家の中で modifier would still hang below the 述語 since
+  that's what it modifies.
 
 - We don't attach a particle to the stem for the modifier 白い. 形容詞 can also
   modify 体言 as well as acting as the 述語, but they don't need a particle. They
   always confer a sense of nature or state. So the stem of the first modifier
   remains bare.
 
-  (The word 白い really _is_ an "adjective" here, but it's still better to consider
+  (The word 白い acts as an "adjective" here, but it's still better to consider
   it an example of the 形容詞 part of speech. It's just a modifier like all the
   others.)
 
@@ -430,10 +428,10 @@ Notes:
   Western grammarians tend to think of particles like に here _changing_ the
   grammatical function of the "な-adjective" 静か from an adjective into an adverb.
 
-  The author finds it easier to think of 静か as _always and forever 形容動詞._ It
-  doesn't matter whether it used in a predicate or as a particle-identified
-  modifier for something else, it's just a 形容動詞 specifying a state or condition
-  just like they always do.
+  The author finds it easier to think of 静かだ as _always and forever 形容動詞._ It
+  doesn't matter whether it used in a predicate or if the だ is swapped out for
+  another particle to indicate some modifying function. It's just a 形容動詞
+  specifying a state or condition as always.
 
   This is the Japanese way to think about the grammar.
 
@@ -448,38 +446,35 @@ Notes:
 - Each row of modifiers adds a little more information to the core clause, but
   still forms complete, grammatical sentences:
 
-  - The core clause reads 「犬が食べている」
+  - The core clause reads 「犬が食べた」
 
-  - With the next row of modifiers, it reads: 「白い犬が中で静かに食べている」
+  - With the next row of modifiers, it reads: 「白い犬が中で静かに食べた」
 
-  - With the final row, we get back to the original sentence: 「白い犬が家の中で
-    静かに食べている」
+  - With the final row, we get back to the original sentence: 「白い犬が家の中で静かに食べた」
 
 #### Even verbs can be 修飾語 (modifiers)
 
 Here's an interesting example:
 
-> 「{歩}^(ある)く{習慣}^(しゅうかん)を{身}^(み)につける」
-
-We'd normally translate this into English as "[I] acquire the
-walking habit".
-
-<Figure figId="arukushuukann" caption="歩く習慣を身につける">
-  ![Figure for "I acquire the walking habit"](/images/arukushuukan.png)
-</Figure>
+<Diagram filename="arukushuukan.svg">
+  <p slot="original">
+    {歩}^(ある)く{習慣}^(しゅうかん)を{身}^(み)につける
+  </p>
+  <p slot="translation">[@] acquires the walking habit</p>
+</Diagram>
 
 Notes:
 
 - The core clause is simply 「つける」(normally this means "[I] attach", but
-  here it's closer to "[I] acquire"). The colloquial expression 「身につける」,
-  however, means to develop a habit. Literally, it means attaching something to
+  here it's closer to "[I] acquire"). The colloquial expression 「身につける」
+  means to develop a habit. Literally, it means attaching something to
   your body (effectively making it mindless and automatic).
 
 - Adding one level of modifiers, we get 「習慣をつける」 or "[I] attach
   custom/habit".
 
 - But it's not just any custom/habit, it's specifically the habit of _walking_.
-  Note how the modifier here is a pure 動詞, 歩く.
+  Note how the modifier here is a pure 動詞 (verb), 歩く.
 
 Here's an even more interesting example of using a verb as a modifier,
 

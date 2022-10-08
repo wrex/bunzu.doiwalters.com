@@ -2,7 +2,7 @@
   export let filename: string;
 
   function makeSafe(original: string) {
-    return original.toLowerCase().replace(/^W/g, '_');
+    return original.toLowerCase().replace(/\W/g, '_');
   }
 
   let figId = makeSafe(filename);
@@ -39,7 +39,7 @@
 
 <style>
   .original {
-    margin-top: 2em;
+    margin-top: 1em;
   }
 
   .original :global(:not(rt,rp)) {

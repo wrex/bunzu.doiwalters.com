@@ -66,5 +66,17 @@
       "  ${3:FIGURE}",
       "</Figure>"
     ]
+  },
+
+  "Diagram": {
+    "scope": "mdx,markdown,html,svelte",
+    "prefix": "Diagram",
+    "description": "A Diagram component",
+    "body": [
+      "<Diagram filename=\"${1:FILENAME}\">",
+      "  <p slot=\"original\">${2:ORIGINAL}</p>",
+      "  <p slot=\"translation\">${3:TRANSLATION}</p>",
+      "</Diagram>"
+    ]
   }
 }

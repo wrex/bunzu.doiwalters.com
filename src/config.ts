@@ -50,8 +50,8 @@ export type Sidebar = Record<
 export const SIDEBAR: Sidebar = {
   en: {
     Basics: [
-      { text: "Introduction", link: "en/introduction" },
-      { text: "Content notes", link: "en/content" },
+      { text: "Introduction", link: "en/basics/introduction" },
+      { text: "Content notes", link: "en/basics/content" },
     ],
     Grammar: [
       { text: "Introduction", link: "en/grammar-intro" },
@@ -65,8 +65,8 @@ export const SIDEBAR: Sidebar = {
       { text: "8. 敬語 (honorifics)", link: "en/grammar/8-keigo" },
     ],
     Diagramming: [
-      { text: "Basics", link: "en/basics" },
-      { text: "Topics and は", link: "en/topics" },
+      { text: "Basics", link: "en/diagramming/basics" },
+      { text: "Topics and は", link: "en/diagramming/topics" },
     ],
     Afterword: [
       { text: "Learning resources", link: "en/tools" },
