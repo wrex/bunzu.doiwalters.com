@@ -53,24 +53,24 @@ export const SIDEBAR: Sidebar = {
       { text: "Introduction", link: "en/basics/introduction" },
       { text: "Content notes", link: "en/basics/content" },
     ],
-    Grammar: [
-      { text: "Introduction", link: "en/grammar-intro" },
-      { text: "1. Foundations", link: "en/grammar/1-foundations" },
-      { text: "2. 用言 (predicate words)", link: "en/grammar/2-yougen" },
-      { text: "3. 体言 and other", link: "en/grammar/3-non-yougen" },
-      { text: "4. 助動詞 (aux-verbs)", link: "en/grammar/4-jodoushi" },
-      { text: "5. 助詞 (particles)", link: "en/grammar/5-joshi" },
-      { text: "6. 語の識別 (variants)", link: "en/grammar/6-special" },
-      { text: "7. 文 Construction", link: "en/grammar/7-construction" },
-      { text: "8. 敬語 (honorifics)", link: "en/grammar/8-keigo" },
-    ],
     Diagramming: [
       { text: "Basics", link: "en/diagramming/basics" },
       { text: "Topics and は", link: "en/diagramming/topics" },
     ],
-    Afterword: [
-      { text: "Learning resources", link: "en/tools" },
-      { text: "About", link: "en/about" },
+    Grammar: [
+      { text: "Introduction", link: "en/grammar/grammar-intro" },
+      { text: "Foundations", link: "en/grammar/1-foundations" },
+      { text: "用言 (predicate words)", link: "en/grammar/2-yougen" },
+      { text: "体言 and other", link: "en/grammar/3-non-yougen" },
+      { text: "助動詞 (aux-verbs)", link: "en/grammar/4-jodoushi" },
+      { text: "助詞 (particles)", link: "en/grammar/5-joshi" },
+      { text: "語の識別 (variants)", link: "en/grammar/6-special" },
+      { text: "文 Construction", link: "en/grammar/7-construction" },
+      { text: "敬語 (honorifics)", link: "en/grammar/8-keigo" },
+    ],
+    Other: [
+      { text: "Tools & Reference", link: "en/other/tools" },
+      { text: "About", link: "en/other/about" },
     ],
   },
 };
