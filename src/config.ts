@@ -56,6 +56,7 @@ export const SIDEBAR: Sidebar = {
     Diagramming: [
       { text: "Basics", link: "en/diagramming/basics" },
       { text: "Topics and は", link: "en/diagramming/topics" },
+      { text: "Examples", link: "en/diagramming/examples" },
     ],
     Grammar: [
       { text: "Introduction", link: "en/grammar/grammar-intro" },
